@@ -1,0 +1,280 @@
+[
+  {
+    "_id": "c-01",
+    "_parentId": "b-01",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "What is CBRN?",
+    "displayTitle": "What is CBRN?",
+    "body": "<p>CBRN stands for <strong>Chemical, Biological, Radiological and Nuclear</strong>. These four categories represent the principal non-conventional threat types that military personnel may encounter in operational environments.</p><p><strong>Chemical</strong> threats involve toxic substances designed to cause harm through their chemical properties. Examples include nerve agents, blister agents, and choking agents.</p><p><strong>Biological</strong> threats involve the deliberate use of bacteria, viruses, or toxins to cause disease or harm. These may be delivered through aerosol, water contamination, or direct contact.</p><p><strong>Radiological</strong> threats involve the dispersal of radioactive material, commonly through a radiological dispersal device (dirty bomb). The primary risk is contamination rather than a nuclear explosion.</p><p><strong>Nuclear</strong> threats involve nuclear detonation, producing blast, thermal radiation, and nuclear fallout. This represents the most destructive category of CBRN threat.</p>",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-02",
+    "_parentId": "b-02",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "CBRN Definition Check",
+    "displayTitle": "Check Your Understanding",
+    "body": "<p>What does the 'R' in CBRN stand for?</p>",
+    "instruction": "Select one option then submit.",
+    "_attempts": 2,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_items": [
+      {
+        "text": "Reactive",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Radiological",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Respiratory",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Reconnaissance",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct. The R in CBRN stands for Radiological, referring to the dispersal of radioactive material.</p>",
+      "_incorrect": {
+        "notFinal": "<p>That is not correct. Think about which term relates to radioactive material. Try again.</p>",
+        "final": "<p>The correct answer is Radiological. This refers to threats involving the dispersal of radioactive material, typically via a radiological dispersal device.</p>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-03",
+    "_parentId": "b-03",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Distinguishing Between Threat Types",
+    "displayTitle": "Distinguishing Between Threat Types",
+    "body": "<p>Each CBRN category has distinct characteristics that affect detection, protection, and response procedures.</p><p><strong>Chemical agents</strong> typically act rapidly, with effects ranging from seconds to hours depending on the agent type. Detection is through specialist equipment such as Chemical Agent Monitors (CAM) and detection paper. Protection requires IPE including the respirator and protective suit.</p><p><strong>Biological agents</strong> have an incubation period, meaning effects may not be apparent for days or weeks after exposure. Detection is extremely difficult in the field. Medical countermeasures including vaccination and antibiotics are the primary defence.</p><p><strong>Radiological hazards</strong> are detectable using radiation survey instruments such as Personal Dosimeters and RADIAC equipment. Contamination can persist in the environment for extended periods. Protection involves distance, shielding, and limiting time of exposure.</p><p><strong>Nuclear detonation</strong> produces immediate and catastrophic effects including blast overpressure, thermal radiation, and electromagnetic pulse (EMP). Fallout following detonation presents a persistent radiological hazard downwind of the blast.</p>",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-04",
+    "_parentId": "b-04",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Immediate Actions on CBRN Detection",
+    "displayTitle": "Immediate Actions on CBRN Detection",
+    "body": "<p>Upon detection or suspicion of a CBRN hazard, all personnel are to carry out the following Immediate Actions (IAs) without waiting for orders:</p><p><strong>1. STOP BREATHING — DON RESPIRATOR</strong><br/>Put on your respirator immediately. This is the single most important action. Ensure a good seal and carry out the sealing check.</p><p><strong>2. GIVE THE ALARM</strong><br/>Alert others in your immediate area by shouting 'GAS GAS GAS' and using any available alarm system. This ensures rapid response from surrounding personnel.</p><p><strong>3. ADOPT PROTECTIVE POSTURE</strong><br/>Don remaining Individual Protective Equipment (IPE) to the level directed or to the highest level if no direction is available. Ensure all skin is covered.</p><p><strong>4. TAKE COVER</strong><br/>Where possible, move to prepared cover or hardened structures. If in the open, take the best available cover to reduce exposure.</p><p><strong>5. REPORT</strong><br/>Send a CBRN 1 Report to your chain of command as soon as operationally possible. This report initiates the command response to the hazard.</p>",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Reporting Procedures",
+    "displayTitle": "CBRN Reporting Procedures",
+    "body": "<p>Accurate and timely reporting is critical to effective CBRN response. The NATO CBRN reporting system uses a series of numbered reports:</p><p><strong>CBRN 1 Report (Observer Report)</strong><br/>Submitted by the first person to detect or observe a CBRN event. Contains basic information: what was observed, where, and when. This is the trigger for all subsequent actions.</p><p><strong>CBRN 2 Report (Evaluated Report)</strong><br/>Compiled from multiple CBRN 1 reports by the CBRN Warning and Reporting Cell. Provides a consolidated picture of the hazard including predicted area of contamination.</p><p><strong>CBRN 3 Report (Immediate Warning)</strong><br/>A downwind hazard warning issued to units likely to be affected by the predicted contamination spread.</p><p><strong>CBRN 4 Report (Reconnaissance Report)</strong><br/>Results of CBRN reconnaissance and monitoring, providing ground truth data on actual contamination levels and boundaries.</p>",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-06",
+    "_parentId": "b-06",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Reporting Check",
+    "displayTitle": "Check Your Understanding",
+    "body": "<p>Which CBRN report is submitted first by the person who detects the hazard?</p>",
+    "instruction": "Select one option then submit.",
+    "_attempts": 2,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_items": [
+      {
+        "text": "CBRN 1 Report",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "CBRN 2 Report",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "CBRN 3 Report",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "CBRN 4 Report",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct. The CBRN 1 Report is the observer report, submitted by the person who first detects the CBRN event.</p>",
+      "_incorrect": {
+        "notFinal": "<p>That is not correct. Think about which report comes first in the sequence. Try again.</p>",
+        "final": "<p>The correct answer is the CBRN 1 Report. This is the observer report submitted by the first person to detect or observe a CBRN event.</p>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-07",
+    "_parentId": "b-07",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Assessment Q1",
+    "displayTitle": "Assessment - Question 1 of 3",
+    "body": "<p>What is the first immediate action upon detection of a CBRN hazard?</p>",
+    "instruction": "Select one option then submit.",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_items": [
+      {
+        "text": "Give the alarm",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Send a CBRN 1 Report",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Stop breathing and don respirator",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Take cover",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct. The first immediate action is always to stop breathing and don your respirator. Personal protection takes priority.</p>",
+      "_incorrect": {
+        "final": "<p>The correct answer is to stop breathing and don your respirator. This is always the first immediate action as it provides the most critical personal protection.</p>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-08",
+    "_parentId": "b-07",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Assessment Q2",
+    "displayTitle": "Assessment - Question 2 of 3",
+    "body": "<p>Which CBRN threat category typically has an incubation period before effects become apparent?</p>",
+    "instruction": "Select one option then submit.",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_items": [
+      {
+        "text": "Chemical",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Biological",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Radiological",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Nuclear",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct. Biological agents have an incubation period, meaning effects may not be apparent for days or weeks after exposure.</p>",
+      "_incorrect": {
+        "final": "<p>The correct answer is Biological. Biological agents such as bacteria and viruses have an incubation period, meaning symptoms may not appear for days or weeks after initial exposure.</p>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-09",
+    "_parentId": "b-07",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Assessment Q3",
+    "displayTitle": "Assessment - Question 3 of 3",
+    "body": "<p>The verbal alarm for a CBRN event is:</p>",
+    "instruction": "Select one option then submit.",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_items": [
+      {
+        "text": "CONTACT CONTACT CONTACT",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ALARM ALARM ALARM",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "GAS GAS GAS",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "NBC NBC NBC",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct. The verbal alarm for a CBRN event is GAS GAS GAS, shouted to alert personnel in the immediate area.</p>",
+      "_incorrect": {
+        "final": "<p>The correct answer is GAS GAS GAS. Despite the change in terminology from NBC to CBRN, the verbal alarm remains GAS GAS GAS.</p>"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  }
+]

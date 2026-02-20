@@ -1,1 +1,66 @@
-{\rtf1}
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_accessibility": {
+    "_isEnabled": true,
+    "_isTextProcessorEnabled": false,
+    "_isSkipNavigationEnabled": true,
+    "_ariaLevels": {
+      "_menu": "1",
+      "_menuGroup": "2",
+      "_menuItem": "2",
+      "_page": "1",
+      "_article": "2",
+      "_block": "3",
+      "_component": "4",
+      "_componentItem": "5",
+      "_notify": "1"
+    }
+  },
+  "_fixes": {
+    "_imgLazyLoad": true
+  },
+  "screenSize": {
+    "small": 520,
+    "medium": 760,
+    "large": 900
+  },
+  "_questionWeight": 1,
+  "_drawer": {
+    "_showEasing": "easeOutQuart",
+    "_hideEasing": "easeInQuart",
+    "_duration": 400
+  },
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "_disableAnimationFor": [],
+  "_logging": {
+    "_isEnabled": true,
+    "_level": "debug",
+    "_console": true
+  },
+  "_spoor": {
+    "_isEnabled": true,
+    "_tracking": {
+      "_shouldStoreResponses": true,
+      "_shouldRecordInteractions": true,
+      "_shouldCompletion": true,
+      "_requireCourseCompleted": true,
+      "_requireAssessmentPassed": false
+    },
+    "_reporting": {
+      "_onTrackingCriteriaMet": "completed",
+      "_onAssessmentFailure": "incomplete",
+      "_resetStatusOnLanguageChange": false
+    },
+    "_advancedSettings": {
+      "_scormVersion": "1.2",
+      "_showDebugWindow": false,
+      "_suppressErrors": false,
+      "_commitOnStatusChange": true,
+      "_timedCommitFrequency": 10,
+      "_maxCommitRetries": 5,
+      "_commitRetryDelay": 2000
+    }
+  }
+}

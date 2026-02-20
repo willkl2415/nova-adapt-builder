@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "co-01",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "TO1: Identify CBRN Threat Categories",
+    "displayTitle": "TO1: Identify CBRN Threat Categories",
+    "body": "On completion of this section, you will be able to identify the four categories of CBRN threats and their distinguishing characteristics.",
+    "pageBody": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": ""
+  },
+  {
+    "_id": "co-02",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "TO2: Apply Immediate Actions on Detection",
+    "displayTitle": "TO2: Apply Immediate Actions on Detection",
+    "body": "On completion of this section, you will be able to state the correct immediate actions to take upon detection of a CBRN hazard.",
+    "pageBody": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": ""
+  },
+  {
+    "_id": "co-03",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Assessment",
+    "displayTitle": "Assessment",
+    "body": "Complete the following assessment to demonstrate your understanding of CBRN awareness fundamentals.",
+    "pageBody": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": ["co-01", "co-02"],
+    "_lockType": "sequential"
+  }
+]

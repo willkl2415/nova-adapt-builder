@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "b-01",
+    "_parentId": "a-01",
+    "_type": "block",
+    "_classes": "",
+    "title": "What is CBRN?",
+    "displayTitle": "What is CBRN?",
+    "body": ""
+  },
+  {
+    "_id": "b-02",
+    "_parentId": "a-01",
+    "_type": "block",
+    "_classes": "",
+    "title": "KLP: CBRN Definition Check",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "b-03",
+    "_parentId": "a-02",
+    "_type": "block",
+    "_classes": "",
+    "title": "Chemical vs Biological vs Radiological vs Nuclear",
+    "displayTitle": "Distinguishing Between Threat Types",
+    "body": ""
+  },
+  {
+    "_id": "b-04",
+    "_parentId": "a-03",
+    "_type": "block",
+    "_classes": "",
+    "title": "Immediate Actions Drill",
+    "displayTitle": "Immediate Actions on CBRN Detection",
+    "body": ""
+  },
+  {
+    "_id": "b-05",
+    "_parentId": "a-04",
+    "_type": "block",
+    "_classes": "",
+    "title": "CBRN Reporting Chain",
+    "displayTitle": "Reporting Procedures",
+    "body": ""
+  },
+  {
+    "_id": "b-06",
+    "_parentId": "a-04",
+    "_type": "block",
+    "_classes": "",
+    "title": "KLP: Reporting Check",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "b-07",
+    "_parentId": "a-05",
+    "_type": "block",
+    "_classes": "",
+    "title": "Assessment Questions",
+    "displayTitle": "Assessment",
+    "body": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "a-01",
+    "_parentId": "co-01",
+    "_type": "article",
+    "_classes": "",
+    "title": "EO1.1: Define CBRN",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "a-02",
+    "_parentId": "co-01",
+    "_type": "article",
+    "_classes": "",
+    "title": "EO1.2: Distinguish Between Threat Types",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "a-03",
+    "_parentId": "co-02",
+    "_type": "article",
+    "_classes": "",
+    "title": "EO2.1: State the Immediate Actions Drill",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "a-04",
+    "_parentId": "co-02",
+    "_type": "article",
+    "_classes": "",
+    "title": "EO2.2: Identify Reporting Procedures",
+    "displayTitle": "",
+    "body": ""
+  },
+  {
+    "_id": "a-05",
+    "_parentId": "co-03",
+    "_type": "article",
+    "_classes": "",
+    "title": "End of Course Assessment",
+    "displayTitle": "",
+    "body": ""
+  }
+]

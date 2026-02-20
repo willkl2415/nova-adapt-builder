@@ -1,0 +1,96 @@
+name: Build SCORM Package
+
+on:
+  push:
+    paths:
+      - 'courses/**'
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout nova-adapt-builder
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Detect course to build
+        id: detect
+        run: |
+          COURSE_DIR=$(ls -d courses/*/ | head -1 | sed 's/\/$//')
+          COURSE_ID=$(basename "$COURSE_DIR")
+          echo "course_id=$COURSE_ID" >> $GITHUB_OUTPUT
+          echo "course_dir=$COURSE_DIR" >> $GITHUB_OUTPUT
+          echo "Building course: $COURSE_ID"
+
+      - name: Install Adapt CLI
+        run: npm install -g adapt-cli
+
+      - name: Create Adapt course project
+        run: |
+          mkdir -p build-workspace
+          cd build-workspace
+          adapt create course nova-course --empty
+          cd nova-course
+
+          # Install core plugins
+          adapt install adapt-contrib-core
+          adapt install adapt-contrib-vanilla
+          adapt install adapt-contrib-boxMenu
+          adapt install adapt-contrib-text
+          adapt install adapt-contrib-narrative
+          adapt install adapt-contrib-media
+          adapt install adapt-contrib-matching
+          adapt install adapt-contrib-mcq
+          adapt install adapt-contrib-gmcq
+          adapt install adapt-contrib-textInput
+          adapt install adapt-contrib-slider
+          adapt install adapt-contrib-accordion
+          adapt install adapt-contrib-hotgraphic
+          adapt install adapt-contrib-blank
+          adapt install adapt-contrib-assessment
+          adapt install adapt-contrib-assessmentResults
+          adapt install adapt-contrib-bookmarking
+          adapt install adapt-contrib-resources
+          adapt install adapt-contrib-spoor
+          adapt install adapt-contrib-trickle
+          adapt install adapt-contrib-pageLevelProgress
+          adapt install adapt-contrib-tutor
+
+      - name: Copy NOVA course content
+        run: |
+          COURSE_ID=${{ steps.detect.outputs.course_id }}
+          
+          # Copy config
+          cp config/config.json build-workspace/nova-course/src/course/config.json
+          
+          # Copy course content files
+          cp courses/$COURSE_ID/en/course.json build-workspace/nova-course/src/course/en/course.json
+          cp courses/$COURSE_ID/en/contentObjects.json build-workspace/nova-course/src/course/en/contentObjects.json
+          cp courses/$COURSE_ID/en/articles.json build-workspace/nova-course/src/course/en/articles.json
+          cp courses/$COURSE_ID/en/blocks.json build-workspace/nova-course/src/course/en/blocks.json
+          cp courses/$COURSE_ID/en/components.json build-workspace/nova-course/src/course/en/components.json
+
+      - name: Build SCORM package
+        run: |
+          cd build-workspace/nova-course
+          grunt build
+
+      - name: Package SCORM zip
+        run: |
+          COURSE_ID=${{ steps.detect.outputs.course_id }}
+          cd build-workspace/nova-course/build
+          zip -r ../../../${COURSE_ID}-scorm.zip .
+
+      - name: Upload SCORM package
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.detect.outputs.course_id }}-scorm
+          path: ${{ steps.detect.outputs.course_id }}-scorm.zip
+          retention-days: 90
