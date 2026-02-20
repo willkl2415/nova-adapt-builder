@@ -35,46 +35,24 @@ jobs:
           cd build-workspace
           git checkout tags/v5.54.0
 
-      - name: Install framework dependencies
+      - name: Install framework and plugins
         run: |
           cd build-workspace
           npm install
-
-      - name: Install Adapt CLI and plugins
-        run: |
-          npm install -g adapt-cli
-          cd build-workspace
-          adapt install adapt-contrib-core
-          adapt install adapt-contrib-vanilla
-          adapt install adapt-contrib-boxMenu
-          adapt install adapt-contrib-text
-          adapt install adapt-contrib-narrative
-          adapt install adapt-contrib-media
-          adapt install adapt-contrib-matching
-          adapt install adapt-contrib-mcq
-          adapt install adapt-contrib-gmcq
-          adapt install adapt-contrib-textInput
-          adapt install adapt-contrib-slider
-          adapt install adapt-contrib-accordion
-          adapt install adapt-contrib-hotgraphic
-          adapt install adapt-contrib-blank
-          adapt install adapt-contrib-assessment
-          adapt install adapt-contrib-assessmentResults
-          adapt install adapt-contrib-bookmarking
-          adapt install adapt-contrib-resources
-          adapt install adapt-contrib-spoor
-          adapt install adapt-contrib-trickle
-          adapt install adapt-contrib-pageLevelProgress
-          adapt install adapt-contrib-tutor
+          npm install adapt-contrib-core adapt-contrib-vanilla adapt-contrib-boxMenu
+          npm install adapt-contrib-text adapt-contrib-narrative adapt-contrib-media
+          npm install adapt-contrib-matching adapt-contrib-mcq adapt-contrib-gmcq
+          npm install adapt-contrib-textInput adapt-contrib-slider adapt-contrib-accordion
+          npm install adapt-contrib-hotgraphic adapt-contrib-blank
+          npm install adapt-contrib-assessment adapt-contrib-assessmentResults
+          npm install adapt-contrib-bookmarking adapt-contrib-resources
+          npm install adapt-contrib-spoor adapt-contrib-trickle
+          npm install adapt-contrib-pageLevelProgress adapt-contrib-tutor
 
       - name: Copy NOVA course content
         run: |
           COURSE_ID=${{ steps.detect.outputs.course_id }}
-          
-          # Copy config
           cp config/config.json build-workspace/src/course/config.json
-          
-          # Copy course content files
           cp courses/$COURSE_ID/en/course.json build-workspace/src/course/en/course.json
           cp courses/$COURSE_ID/en/contentObjects.json build-workspace/src/course/en/contentObjects.json
           cp courses/$COURSE_ID/en/articles.json build-workspace/src/course/en/articles.json
