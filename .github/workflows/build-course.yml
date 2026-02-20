@@ -35,19 +35,47 @@ jobs:
           cd build-workspace
           git checkout tags/v5.54.0
 
-      - name: Install framework and plugins
+      - name: Install framework dependencies
         run: |
           cd build-workspace
-          npm install
-          npm install adapt-contrib-core adapt-contrib-vanilla adapt-contrib-boxMenu
-          npm install adapt-contrib-text adapt-contrib-narrative adapt-contrib-media
-          npm install adapt-contrib-matching adapt-contrib-mcq adapt-contrib-gmcq
-          npm install adapt-contrib-textInput adapt-contrib-slider adapt-contrib-accordion
-          npm install adapt-contrib-hotgraphic adapt-contrib-blank
-          npm install adapt-contrib-assessment adapt-contrib-assessmentResults
-          npm install adapt-contrib-bookmarking adapt-contrib-resources
-          npm install adapt-contrib-spoor adapt-contrib-trickle
-          npm install adapt-contrib-pageLevelProgress adapt-contrib-tutor
+          npm install --ignore-scripts
+
+      - name: Install plugins from GitHub
+        run: |
+          cd build-workspace
+          
+          # Core
+          git clone https://github.com/adaptlearning/adapt-contrib-core.git src/core
+          
+          # Theme
+          rm -rf src/theme/adapt-contrib-vanilla
+          git clone https://github.com/adaptlearning/adapt-contrib-vanilla.git src/theme/adapt-contrib-vanilla
+          
+          # Menu
+          git clone https://github.com/adaptlearning/adapt-contrib-boxMenu.git src/menu/adapt-contrib-boxMenu
+          
+          # Components
+          git clone https://github.com/adaptlearning/adapt-contrib-text.git src/components/adapt-contrib-text
+          git clone https://github.com/adaptlearning/adapt-contrib-narrative.git src/components/adapt-contrib-narrative
+          git clone https://github.com/adaptlearning/adapt-contrib-media.git src/components/adapt-contrib-media
+          git clone https://github.com/adaptlearning/adapt-contrib-matching.git src/components/adapt-contrib-matching
+          git clone https://github.com/adaptlearning/adapt-contrib-mcq.git src/components/adapt-contrib-mcq
+          git clone https://github.com/adaptlearning/adapt-contrib-gmcq.git src/components/adapt-contrib-gmcq
+          git clone https://github.com/adaptlearning/adapt-contrib-textInput.git src/components/adapt-contrib-textInput
+          git clone https://github.com/adaptlearning/adapt-contrib-slider.git src/components/adapt-contrib-slider
+          git clone https://github.com/adaptlearning/adapt-contrib-accordion.git src/components/adapt-contrib-accordion
+          git clone https://github.com/adaptlearning/adapt-contrib-hotgraphic.git src/components/adapt-contrib-hotgraphic
+          git clone https://github.com/adaptlearning/adapt-contrib-blank.git src/components/adapt-contrib-blank
+          
+          # Extensions
+          git clone https://github.com/adaptlearning/adapt-contrib-assessment.git src/extensions/adapt-contrib-assessment
+          git clone https://github.com/adaptlearning/adapt-contrib-assessmentResults.git src/extensions/adapt-contrib-assessmentResults
+          git clone https://github.com/adaptlearning/adapt-contrib-bookmarking.git src/extensions/adapt-contrib-bookmarking
+          git clone https://github.com/adaptlearning/adapt-contrib-resources.git src/extensions/adapt-contrib-resources
+          git clone https://github.com/adaptlearning/adapt-contrib-spoor.git src/extensions/adapt-contrib-spoor
+          git clone https://github.com/adaptlearning/adapt-contrib-trickle.git src/extensions/adapt-contrib-trickle
+          git clone https://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git src/extensions/adapt-contrib-pageLevelProgress
+          git clone https://github.com/adaptlearning/adapt-contrib-tutor.git src/extensions/adapt-contrib-tutor
 
       - name: Copy NOVA course content
         run: |
