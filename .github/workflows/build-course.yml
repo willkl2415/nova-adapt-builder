@@ -23,23 +23,27 @@ jobs:
       - name: Detect course to build
         id: detect
         run: |
-          COURSE_DIR=$(ls -d courses/*/ | head -1 | sed 's/\/$//')
+          COURSE_DIR=$(find courses -mindepth 1 -maxdepth 1 -type d | head -1)
           COURSE_ID=$(basename "$COURSE_DIR")
           echo "course_id=$COURSE_ID" >> $GITHUB_OUTPUT
           echo "course_dir=$COURSE_DIR" >> $GITHUB_OUTPUT
           echo "Building course: $COURSE_ID"
 
-      - name: Install Adapt CLI
-        run: npm install -g adapt-cli
-
-      - name: Create Adapt course project
+      - name: Clone Adapt Framework
         run: |
-          mkdir -p build-workspace
+          git clone https://github.com/adaptlearning/adapt_framework.git build-workspace
           cd build-workspace
-          adapt create course nova-course --empty
-          cd nova-course
+          git checkout tags/v5.54.0
 
-          # Install core plugins
+      - name: Install framework dependencies
+        run: |
+          cd build-workspace
+          npm install
+
+      - name: Install Adapt CLI and plugins
+        run: |
+          npm install -g adapt-cli
+          cd build-workspace
           adapt install adapt-contrib-core
           adapt install adapt-contrib-vanilla
           adapt install adapt-contrib-boxMenu
@@ -68,25 +72,25 @@ jobs:
           COURSE_ID=${{ steps.detect.outputs.course_id }}
           
           # Copy config
-          cp config/config.json build-workspace/nova-course/src/course/config.json
+          cp config/config.json build-workspace/src/course/config.json
           
           # Copy course content files
-          cp courses/$COURSE_ID/en/course.json build-workspace/nova-course/src/course/en/course.json
-          cp courses/$COURSE_ID/en/contentObjects.json build-workspace/nova-course/src/course/en/contentObjects.json
-          cp courses/$COURSE_ID/en/articles.json build-workspace/nova-course/src/course/en/articles.json
-          cp courses/$COURSE_ID/en/blocks.json build-workspace/nova-course/src/course/en/blocks.json
-          cp courses/$COURSE_ID/en/components.json build-workspace/nova-course/src/course/en/components.json
+          cp courses/$COURSE_ID/en/course.json build-workspace/src/course/en/course.json
+          cp courses/$COURSE_ID/en/contentObjects.json build-workspace/src/course/en/contentObjects.json
+          cp courses/$COURSE_ID/en/articles.json build-workspace/src/course/en/articles.json
+          cp courses/$COURSE_ID/en/blocks.json build-workspace/src/course/en/blocks.json
+          cp courses/$COURSE_ID/en/components.json build-workspace/src/course/en/components.json
 
       - name: Build SCORM package
         run: |
-          cd build-workspace/nova-course
-          grunt build
+          cd build-workspace
+          npx grunt build
 
       - name: Package SCORM zip
         run: |
           COURSE_ID=${{ steps.detect.outputs.course_id }}
-          cd build-workspace/nova-course/build
-          zip -r ../../../${COURSE_ID}-scorm.zip .
+          cd build-workspace/build
+          zip -r ../../${COURSE_ID}-scorm.zip .
 
       - name: Upload SCORM package
         uses: actions/upload-artifact@v4
