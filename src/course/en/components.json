@@ -1,0 +1,1257 @@
+[
+  {
+    "_id": "page-to1-art-eo11-blk1-comp",
+    "_parentId": "page-to1-art-eo11-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Receive tasking from the Chain of Command (CoC)",
+    "displayTitle": "Receive tasking from the Chain of Command (CoC)",
+    "body": "<p><strong>Receive tasking from the Chain of Command (CoC)</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to1-art-eo12-blk1-comp",
+    "_parentId": "page-to1-art-eo12-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Provide updates on the preparation activities to Comd elements",
+    "displayTitle": "Provide updates on the preparation activities to Comd elements",
+    "body": "<p><strong>Provide updates on the preparation activities to Comd elements</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to2-art-eo21-blk1-comp",
+    "_parentId": "page-to2-art-eo21-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Identify the correct equipment for the given task",
+    "displayTitle": "Identify the correct equipment for the given task",
+    "body": "<p><strong>Identify the correct equipment for the given task</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to3-art-eo31-blk1-comp",
+    "_parentId": "page-to3-art-eo31-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Investigate subordinates trade training requirements",
+    "displayTitle": "Investigate subordinates trade training requirements",
+    "body": "<p><strong>Investigate subordinates trade training requirements</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to4-art-eo41-blk1-comp",
+    "_parentId": "page-to4-art-eo41-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Interpret and confirm deployment requirements",
+    "displayTitle": "Interpret and confirm deployment requirements",
+    "body": "<p><strong>Interpret and confirm deployment requirements</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to4-art-eo42-blk1-comp",
+    "_parentId": "page-to4-art-eo42-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Liaise with CoC and/or external agency for movement of personnel",
+    "displayTitle": "Liaise with CoC and/or external agency for movement of personnel",
+    "body": "<p><strong>Liaise with CoC and/or external agency for movement of personnel</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to5-art-eo51-blk1-comp",
+    "_parentId": "page-to5-art-eo51-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Receive the issue of and ensure the correct implementation of theatre specific equipments",
+    "displayTitle": "Receive the issue of and ensure the correct implementation of theatre specific equipments",
+    "body": "<p><strong>Receive the issue of and ensure the correct implementation of theatre specific equipments</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to6-art-eo61-blk1-comp",
+    "_parentId": "page-to6-art-eo61-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Confirm route to FOB before departure and as required",
+    "displayTitle": "Confirm route to FOB before departure and as required",
+    "body": "<p><strong>Confirm route to FOB before departure and as required</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to6-art-eo62-blk1-comp",
+    "_parentId": "page-to6-art-eo62-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Upon arrival at FOB implement R2 procedures",
+    "displayTitle": "Upon arrival at FOB implement R2 procedures",
+    "body": "<p><strong>Upon arrival at FOB implement R2 procedures</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to7-art-eo71-blk1-comp",
+    "_parentId": "page-to7-art-eo71-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Conduct an appreciation of the siting requirements to include technical and tactical considerations",
+    "displayTitle": "Conduct an appreciation of the siting requirements to include technical and tactical considerations",
+    "body": "<p><strong>Conduct an appreciation of the siting requirements to include technical and tactical considerations</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to8-art-eo81-blk1-comp",
+    "_parentId": "page-to8-art-eo81-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Provide a brief to the local/site Comd on your task",
+    "displayTitle": "Provide a brief to the local/site Comd on your task",
+    "body": "<p><strong>Provide a brief to the local/site Comd on your task</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to9-art-eo91-blk1-comp",
+    "_parentId": "page-to9-art-eo91-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Manage the detachment",
+    "displayTitle": "Manage the detachment",
+    "body": "<p><strong>Manage the detachment</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to9-art-eo92-blk1-comp",
+    "_parentId": "page-to9-art-eo92-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Apply local R2 procedures",
+    "displayTitle": "Apply local R2 procedures",
+    "body": "<p><strong>Apply local R2 procedures</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to10-art-eo101-blk1-comp",
+    "_parentId": "page-to10-art-eo101-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Produce and deliver a technical brief to include any changes to the specified task",
+    "displayTitle": "Produce and deliver a technical brief to include any changes to the specified task",
+    "body": "<p><strong>Produce and deliver a technical brief to include any changes to the specified task</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to11-art-eo111-blk1-comp",
+    "_parentId": "page-to11-art-eo111-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Ensure the effective exploitation of the specified task",
+    "displayTitle": "Ensure the effective exploitation of the specified task",
+    "body": "<p><strong>Ensure the effective exploitation of the specified task</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to11-art-eo112-blk1-comp",
+    "_parentId": "page-to11-art-eo112-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "React to technical changes in the situation",
+    "displayTitle": "React to technical changes in the situation",
+    "body": "<p><strong>React to technical changes in the situation</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to12-art-eo121-blk1-comp",
+    "_parentId": "page-to12-art-eo121-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Inform CoC of potential capability gaps",
+    "displayTitle": "Inform CoC of potential capability gaps",
+    "body": "<p><strong>Inform CoC of potential capability gaps</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to13-art-eo131-blk1-comp",
+    "_parentId": "page-to13-art-eo131-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Plan and submit detachment R & R requirements",
+    "displayTitle": "Plan and submit detachment R & R requirements",
+    "body": "<p><strong>Plan and submit detachment R & R requirements</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to14-art-eo141-blk1-comp",
+    "_parentId": "page-to14-art-eo141-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Ensure the well being of detachment members",
+    "displayTitle": "Ensure the well being of detachment members",
+    "body": "<p><strong>Ensure the well being of detachment members</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to14-art-eo142-blk1-comp",
+    "_parentId": "page-to14-art-eo142-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Relieve soldiers from their duties when appropriate to do so",
+    "displayTitle": "Relieve soldiers from their duties when appropriate to do so",
+    "body": "<p><strong>Relieve soldiers from their duties when appropriate to do so</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to15-art-eo151-blk1-comp",
+    "_parentId": "page-to15-art-eo151-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Ensure the correct accounting of weapons",
+    "displayTitle": "Ensure the correct accounting of weapons",
+    "body": "<p><strong>Ensure the correct accounting of weapons</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to16-art-eo161-blk1-comp",
+    "_parentId": "page-to16-art-eo161-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Identify the correct G4 chain",
+    "displayTitle": "Identify the correct G4 chain",
+    "body": "<p><strong>Identify the correct G4 chain</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to17-art-eo171-blk1-comp",
+    "_parentId": "page-to17-art-eo171-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Interpret and confirm tasking with the CoC",
+    "displayTitle": "Interpret and confirm tasking with the CoC",
+    "body": "<p><strong>Interpret and confirm tasking with the CoC</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to17-art-eo1721-blk1-comp",
+    "_parentId": "page-to17-art-eo1721-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Consider NTM timings etc (as per SOPs)",
+    "displayTitle": "Consider NTM timings etc (as per SOPs)",
+    "body": "<p><strong>Consider NTM timings etc (as per SOPs)</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to18-art-eo181-blk1-comp",
+    "_parentId": "page-to18-art-eo181-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Maintain awareness of future tasking",
+    "displayTitle": "Maintain awareness of future tasking",
+    "body": "<p><strong>Maintain awareness of future tasking</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to19-art-eo191-blk1-comp",
+    "_parentId": "page-to19-art-eo191-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Conduct turnaround procedures to include:",
+    "displayTitle": "Conduct turnaround procedures to include:",
+    "body": "<p><strong>Conduct turnaround procedures to include:</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to19-art-eo192-blk1-comp",
+    "_parentId": "page-to19-art-eo192-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Carry-out Level 1 maintenance as required",
+    "displayTitle": "Carry-out Level 1 maintenance as required",
+    "body": "<p><strong>Carry-out Level 1 maintenance as required</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to20-art-eo201-blk1-comp",
+    "_parentId": "page-to20-art-eo201-blk1",
+    "_type": "component",
+    "_component": "adapt-contrib-text",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Provide support to Regimental trade training",
+    "displayTitle": "Provide support to Regimental trade training",
+    "body": "<p><strong>Provide support to Regimental trade training</strong></p>",
+    "instruction": ""
+  },
+  {
+    "_id": "block-assess-q1-comp",
+    "_parentId": "block-assess-q1",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 1 of 20",
+    "displayTitle": "Question 1 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Provide Support To The Chain Of Command (CoC)</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Interpret tasking",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Assist in the Deployment of Capability",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Interpret tasking</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q2-comp",
+    "_parentId": "block-assess-q2",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 2 of 20",
+    "displayTitle": "Question 2 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Control Detachment Preparation</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Delegate tasks to troops",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Assist in the Deployment of Capability",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Delegate tasks to troops</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q3-comp",
+    "_parentId": "block-assess-q3",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 3 of 20",
+    "displayTitle": "Question 3 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Manage Subordinates</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Investigate subordinates special to role training requirements",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Assist in the Deployment of Capability",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Investigate subordinates special to role training requirements</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q4-comp",
+    "_parentId": "block-assess-q4",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 4 of 20",
+    "displayTitle": "Question 4 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Assist in the Deployment of Capability</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Liaise with CoC and/or external agency for movement of capability",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Liaise with CoC and/or external agency for movement of capability</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q5-comp",
+    "_parentId": "block-assess-q5",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 5 of 20",
+    "displayTitle": "Question 5 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Conduct Theatre Arrival Procedures (Reception, Staging and Onwards Integration)</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Manage the theatre specific training requirements for all detachment members",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Manage the theatre specific training requirements for all detachment members</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q6-comp",
+    "_parentId": "block-assess-q6",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 6 of 20",
+    "displayTitle": "Question 6 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Move Capability to Forward Operating Base (FOB)</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Ensure technical protection measures are implemented",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Ensure technical protection measures are implemented</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q7-comp",
+    "_parentId": "block-assess-q7",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 7 of 20",
+    "displayTitle": "Question 7 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Site and Establish Capability</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Brief detachment members on the siting requirements",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Brief detachment members on the siting requirements</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q8-comp",
+    "_parentId": "block-assess-q8",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 8 of 20",
+    "displayTitle": "Question 8 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Liaison With Local/Site Comd</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Advise the local/site Comd on the 'need to know'",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Advise the local/site Comd on the 'need to know'</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q9-comp",
+    "_parentId": "block-assess-q9",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 9 of 20",
+    "displayTitle": "Question 9 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Establish an Effective Detachment Routine</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Confirm task duration",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Confirm task duration</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q10-comp",
+    "_parentId": "block-assess-q10",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 10 of 20",
+    "displayTitle": "Question 10 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Apply Handover/Takeover Procedures</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Ensure management of accountable items as per SOPs",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Ensure management of accountable items as per SOPs</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q11-comp",
+    "_parentId": "block-assess-q11",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 11 of 20",
+    "displayTitle": "Question 11 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Monitor and Manage the Services Provided</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Monitor tasks",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Monitor tasks</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q12-comp",
+    "_parentId": "block-assess-q12",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 12 of 20",
+    "displayTitle": "Question 12 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Identify Capability Gaps</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Receive and implement the arrival of new equipment from the UOR process",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Receive and implement the arrival of new equipment from the UOR process</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q13-comp",
+    "_parentId": "block-assess-q13",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 13 of 20",
+    "displayTitle": "Question 13 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Review the Operational Situation</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Identify and act upon manpower uplift requirements",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Identify and act upon manpower uplift requirements</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q14-comp",
+    "_parentId": "block-assess-q14",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 14 of 20",
+    "displayTitle": "Question 14 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Maintain Detachment Personnel</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Provide appraisals of personnel",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Provide appraisals of personnel</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q15-comp",
+    "_parentId": "block-assess-q15",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 15 of 20",
+    "displayTitle": "Question 15 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Manage Accountable Materiel (Sustain)</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Ensure the correct accounting of ammunition",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Ensure the correct accounting of ammunition</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q16-comp",
+    "_parentId": "block-assess-q16",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 16 of 20",
+    "displayTitle": "Question 16 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Manage the Servicing of Assets</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Plan and manage the G4 requirements",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Plan and manage the G4 requirements</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q17-comp",
+    "_parentId": "block-assess-q17",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 17 of 20",
+    "displayTitle": "Question 17 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Control the Recovery/Retasking of Assets</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Provide warning order to subordinates",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Provide warning order to subordinates</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q18-comp",
+    "_parentId": "block-assess-q18",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 18 of 20",
+    "displayTitle": "Question 18 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Manage Tasks Associated With Recovery/Retasking</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Continue liaison with CoC",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Continue liaison with CoC</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q19-comp",
+    "_parentId": "block-assess-q19",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 19 of 20",
+    "displayTitle": "Question 19 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Regenerate Capability</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "All temporary issue items returned to stores",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: All temporary issue items returned to stores</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-q20-comp",
+    "_parentId": "block-assess-q20",
+    "_type": "component",
+    "_component": "adapt-contrib-mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_questionWeight": 1,
+    "title": "Question 20 of 20",
+    "displayTitle": "Question 20 of 20",
+    "body": "<p>Which is a key requirement for: <strong>Provide SME Support to Regimental Training</strong>?</p>",
+    "instruction": "Choose one answer.",
+    "_items": [
+      {
+        "text": "Provide support to Regimental military training",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Provide Support To The Chain Of Command (CoC)",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Control Detachment Preparation",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Manage Subordinates",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "<p>Correct.</p>",
+      "_incorrect": {
+        "final": "<p>Incorrect. The correct answer relates to: Provide support to Regimental military training</p>"
+      }
+    }
+  },
+  {
+    "_id": "block-assess-results-comp",
+    "_parentId": "block-assess-results",
+    "_type": "component",
+    "_component": "adapt-contrib-assessmentResults",
+    "_classes": "",
+    "_isOptional": false,
+    "_layout": "full",
+    "title": "Assessment Results",
+    "displayTitle": "Your Results",
+    "body": "{{{scoreAsPercent}}}%",
+    "instruction": "",
+    "_assessmentId": "assessment-course",
+    "_retry": {
+      "button": "Retry Assessment",
+      "feedback": ""
+    },
+    "_completionBody": "{{{scoreAsPercent}}}%",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "<p>You scored <strong>{{{scoreAsPercent}}}%</strong>. You need 70% to pass. Please review the material and try again.</p>",
+        "_allowRetry": true
+      },
+      {
+        "_score": 70,
+        "feedback": "<p>Congratulations! You scored <strong>{{{scoreAsPercent}}}%</strong> and have passed the assessment.</p>",
+        "_allowRetry": false
+      }
+    ]
+  }
+]

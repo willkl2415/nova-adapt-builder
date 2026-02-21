@@ -1,0 +1,464 @@
+[
+  {
+    "_id": "page-to1",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO1: Provide Support To The Chain Of Command (CoC)",
+    "displayTitle": "Provide Support To The Chain Of Command (CoC)",
+    "body": "<p><strong>TO1:</strong> Provide Support To The Chain Of Command (CoC)</p><p><strong>Conditions:</strong> PREPARE FOR DEPLOYMENT</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to2",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO2: Control Detachment Preparation",
+    "displayTitle": "Control Detachment Preparation",
+    "body": "<p><strong>TO2:</strong> Control Detachment Preparation</p><p><strong>Conditions:</strong> PREPARE FOR DEPLOYMENT</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to3",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO3: Manage Subordinates",
+    "displayTitle": "Manage Subordinates",
+    "body": "<p><strong>TO3:</strong> Manage Subordinates</p><p><strong>Conditions:</strong> PREPARE FOR DEPLOYMENT</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to4",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO4: Assist in the Deployment of Capability",
+    "displayTitle": "Assist in the Deployment of Capability",
+    "body": "<p><strong>TO4:</strong> Assist in the Deployment of Capability</p><p><strong>Conditions:</strong> DEPLOY capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to5",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO5: Conduct Theatre Arrival Procedures (Reception, Staging and Onwards Integration)",
+    "displayTitle": "Conduct Theatre Arrival Procedures (Reception, Staging and Onwards Integration)",
+    "body": "<p><strong>TO5:</strong> Conduct Theatre Arrival Procedures (Reception, Staging and Onwards Integration)</p><p><strong>Conditions:</strong> DEPLOY Capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to6",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO6: Move Capability to Forward Operating Base (FOB)",
+    "displayTitle": "Move Capability to Forward Operating Base (FOB)",
+    "body": "<p><strong>TO6:</strong> Move Capability to Forward Operating Base (FOB)</p><p><strong>Conditions:</strong> DEPLOY Capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to7",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO7: Site and Establish Capability",
+    "displayTitle": "Site and Establish Capability",
+    "body": "<p><strong>TO7:</strong> Site and Establish Capability</p><p><strong>Conditions:</strong> DEPLOY capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to8",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO8: Liaison With Local/Site Comd",
+    "displayTitle": "Liaison With Local/Site Comd",
+    "body": "<p><strong>TO8:</strong> Liaison With Local/Site Comd</p><p><strong>Conditions:</strong> DEPLOY CAPABILITY</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to9",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO9: Establish an Effective Detachment Routine",
+    "displayTitle": "Establish an Effective Detachment Routine",
+    "body": "<p><strong>TO9:</strong> Establish an Effective Detachment Routine</p><p><strong>Conditions:</strong> MAINTAIN CAPABILITY</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to10",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO10: Apply Handover/Takeover Procedures",
+    "displayTitle": "Apply Handover/Takeover Procedures",
+    "body": "<p><strong>TO10:</strong> Apply Handover/Takeover Procedures</p><p><strong>Conditions:</strong> maintain capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to11",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO11: Monitor and Manage the Services Provided",
+    "displayTitle": "Monitor and Manage the Services Provided",
+    "body": "<p><strong>TO11:</strong> Monitor and Manage the Services Provided</p><p><strong>Conditions:</strong> Maintain capability</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to12",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO12: Identify Capability Gaps",
+    "displayTitle": "Identify Capability Gaps",
+    "body": "<p><strong>TO12:</strong> Identify Capability Gaps</p><p><strong>Conditions:</strong> MAINTAIN CAPABILITY</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to13",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO13: Review the Operational Situation",
+    "displayTitle": "Review the Operational Situation",
+    "body": "<p><strong>TO13:</strong> Review the Operational Situation</p><p><strong>Conditions:</strong> MANAGE ASSETS</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to14",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO14: Maintain Detachment Personnel",
+    "displayTitle": "Maintain Detachment Personnel",
+    "body": "<p><strong>TO14:</strong> Maintain Detachment Personnel</p><p><strong>Conditions:</strong> MANAGE ASSETS</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to15",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO15: Manage Accountable Materiel (Sustain)",
+    "displayTitle": "Manage Accountable Materiel (Sustain)",
+    "body": "<p><strong>TO15:</strong> Manage Accountable Materiel (Sustain)</p><p><strong>Conditions:</strong> MANAGE ASSETS</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to16",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO16: Manage the Servicing of Assets",
+    "displayTitle": "Manage the Servicing of Assets",
+    "body": "<p><strong>TO16:</strong> Manage the Servicing of Assets</p><p><strong>Conditions:</strong> MANAGE ASSETS</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to17",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO17: Control the Recovery/Retasking of Assets",
+    "displayTitle": "Control the Recovery/Retasking of Assets",
+    "body": "<p><strong>TO17:</strong> Control the Recovery/Retasking of Assets</p><p><strong>Conditions:</strong> Recover and/or reTASK assets</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to18",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO18: Manage Tasks Associated With Recovery/Retasking",
+    "displayTitle": "Manage Tasks Associated With Recovery/Retasking",
+    "body": "<p><strong>TO18:</strong> Manage Tasks Associated With Recovery/Retasking</p><p><strong>Conditions:</strong> Recover and/or retask assets</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to19",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO19: Regenerate Capability",
+    "displayTitle": "Regenerate Capability",
+    "body": "<p><strong>TO19:</strong> Regenerate Capability</p><p><strong>Conditions:</strong> Recover and/or retask assets</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to20",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO20: Provide SME Support to Regimental Training",
+    "displayTitle": "Provide SME Support to Regimental Training",
+    "body": "<p><strong>TO20:</strong> Provide SME Support to Regimental Training</p><p><strong>Conditions:</strong> Carry-out additional duties</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-assessment",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "Assessment",
+    "displayTitle": "Assessment",
+    "body": "<p>This assessment covers all Training Objectives. You must achieve <strong>70%</strong> to pass.</p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]
