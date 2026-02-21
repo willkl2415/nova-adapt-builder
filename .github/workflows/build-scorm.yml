@@ -1,0 +1,77 @@
+name: Build SCORM Package
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Adapt CLI
+        run: npm install -g adapt-cli
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install plugins via git clone - no CLI prompts
+        run: |
+          mkdir -p src/components
+          mkdir -p src/extensions
+          mkdir -p src/menu
+          mkdir -p src/theme
+
+          # Core components
+          git clone https://github.com/adaptlearning/adapt-contrib-text.git src/components/adapt-contrib-text 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-mcq.git src/components/adapt-contrib-mcq 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-assessmentResults.git src/components/adapt-contrib-assessmentResults 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-narrative.git src/components/adapt-contrib-narrative 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-media.git src/components/adapt-contrib-media 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-hotgraphic.git src/components/adapt-contrib-hotgraphic 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-accordion.git src/components/adapt-contrib-accordion 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-gmcq.git src/components/adapt-contrib-gmcq 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-matching.git src/components/adapt-contrib-matching 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-textInput.git src/components/adapt-contrib-textInput 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-slider.git src/components/adapt-contrib-slider 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-confidenceSlider.git src/components/adapt-contrib-confidenceSlider 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-graphic.git src/components/adapt-contrib-graphic 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-blank.git src/components/adapt-contrib-blank 2>/dev/null || true
+
+          # Extensions
+          git clone https://github.com/adaptlearning/adapt-contrib-assessment.git src/extensions/adapt-contrib-assessment 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-bookmarking.git src/extensions/adapt-contrib-bookmarking 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git src/extensions/adapt-contrib-pageLevelProgress 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-resources.git src/extensions/adapt-contrib-resources 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-spoor.git src/extensions/adapt-contrib-spoor 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-trickle.git src/extensions/adapt-contrib-trickle 2>/dev/null || true
+          git clone https://github.com/adaptlearning/adapt-contrib-tutor.git src/extensions/adapt-contrib-tutor 2>/dev/null || true
+
+          # Menu
+          git clone https://github.com/adaptlearning/adapt-contrib-boxMenu.git src/menu/adapt-contrib-boxMenu 2>/dev/null || true
+
+          # Theme
+          git clone https://github.com/adaptlearning/adapt-contrib-vanilla.git src/theme/adapt-contrib-vanilla 2>/dev/null || true
+
+      - name: Build SCORM package
+        run: npx grunt build
+
+      - name: Create SCORM zip
+        run: |
+          cd build
+          zip -r ../scorm-package.zip .
+
+      - name: Upload SCORM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scorm-package
+          path: scorm-package.zip
+          retention-days: 30
