@@ -1,102 +1,255 @@
+# ============================================================================
+# NOVA™ SCORM Build Pipeline
+# Triggers when Adapt JSON is pushed to src/course/en/
+# Clones Adapt Framework, installs plugins, builds SCORM 1.2 package
+# ============================================================================
+# FILE: .github/workflows/build-scorm.yml
+# REPO: willkl2415/nova-adapt-builder
+# ============================================================================
+
 name: Build SCORM Package
 
 on:
   push:
-    branches: [ main ]
     paths:
-      - 'src/course/**'
-      - '.github/workflows/**'
+      - 'src/course/en/**'
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout course content
+      # ── 1. Checkout this repo (nova-adapt-builder) ──
+      - name: Checkout nova-adapt-builder
         uses: actions/checkout@v4
         with:
-          path: course-content
+          fetch-depth: 1
 
-      - name: Clone Adapt Framework
-        run: |
-          git clone --depth 1 https://github.com/adaptlearning/adapt_framework.git adapt-build
-
+      # ── 2. Setup Node.js ──
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install Adapt Framework dependencies
-        working-directory: adapt-build
-        run: npm install
-
-      - name: Install Adapt CLI
-        run: npm install -g adapt-cli
-
-      - name: Install plugins
-        working-directory: adapt-build
+      # ── 3. Clone Adapt Framework ──
+      - name: Clone Adapt Framework
         run: |
-          mkdir -p src/components
-          mkdir -p src/extensions
-          mkdir -p src/menu
-          mkdir -p src/theme
+          git clone --depth 1 --branch v5.24.3 https://github.com/adaptlearning/adapt_framework.git adapt-framework
+          echo "✅ Adapt Framework cloned"
 
-          # Core components
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-text.git src/components/adapt-contrib-text 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-mcq.git src/components/adapt-contrib-mcq 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-assessmentResults.git src/components/adapt-contrib-assessmentResults 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-narrative.git src/components/adapt-contrib-narrative 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-media.git src/components/adapt-contrib-media 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-hotgraphic.git src/components/adapt-contrib-hotgraphic 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-accordion.git src/components/adapt-contrib-accordion 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-gmcq.git src/components/adapt-contrib-gmcq 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-matching.git src/components/adapt-contrib-matching 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-textInput.git src/components/adapt-contrib-textInput 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-slider.git src/components/adapt-contrib-slider 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-confidenceSlider.git src/components/adapt-contrib-confidenceSlider 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-graphic.git src/components/adapt-contrib-graphic 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-blank.git src/components/adapt-contrib-blank 2>/dev/null || true
-
-          # Extensions
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-assessment.git src/extensions/adapt-contrib-assessment 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-bookmarking.git src/extensions/adapt-contrib-bookmarking 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git src/extensions/adapt-contrib-pageLevelProgress 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-resources.git src/extensions/adapt-contrib-resources 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-spoor.git src/extensions/adapt-contrib-spoor 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-trickle.git src/extensions/adapt-contrib-trickle 2>/dev/null || true
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-tutor.git src/extensions/adapt-contrib-tutor 2>/dev/null || true
-
-          # Menu
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-boxMenu.git src/menu/adapt-contrib-boxMenu 2>/dev/null || true
-
-          # Theme
-          git clone --depth 1 https://github.com/adaptlearning/adapt-contrib-vanilla.git src/theme/adapt-contrib-vanilla 2>/dev/null || true
-
-      - name: Copy NOVA course content into Adapt Framework
+      # ── 4. Install Adapt Framework dependencies ──
+      - name: Install Adapt dependencies
+        working-directory: adapt-framework
         run: |
-          # Copy all JSON files from our repo into the Adapt build
-          cp -v course-content/src/course/en/*.json adapt-build/src/course/en/ 2>/dev/null || true
+          npm install
+          npx adapt-cli install
+          echo "✅ Adapt dependencies installed"
 
-          # Copy any images if they exist
-          mkdir -p adapt-build/src/course/en/images
-          cp -v course-content/src/course/en/images/* adapt-build/src/course/en/images/ 2>/dev/null || true
+      # ── 5. Install required plugins ──
+      - name: Install Adapt plugins
+        working-directory: adapt-framework
+        run: |
+          npx adapt-cli install adapt-contrib-text
+          npx adapt-cli install adapt-contrib-mcq
+          npx adapt-cli install adapt-contrib-gmcq
+          npx adapt-cli install adapt-contrib-matching
+          npx adapt-cli install adapt-contrib-narrative
+          npx adapt-cli install adapt-contrib-accordion
+          npx adapt-cli install adapt-contrib-hotgraphic
+          npx adapt-cli install adapt-contrib-media
+          npx adapt-cli install adapt-contrib-blank
+          npx adapt-cli install adapt-contrib-assessment
+          npx adapt-cli install adapt-contrib-assessmentResults
+          npx adapt-cli install adapt-contrib-pageLevelProgress
+          npx adapt-cli install adapt-contrib-trickle
+          npx adapt-cli install adapt-contrib-bookmarking
+          npx adapt-cli install adapt-contrib-resources
+          npx adapt-cli install adapt-contrib-boxMenu
+          npx adapt-cli install adapt-contrib-spoor
+          echo "✅ All plugins installed"
 
-          # Show what we copied
-          echo "=== Course files ==="
-          ls -la adapt-build/src/course/en/
+      # ── 6. Copy NOVA course JSON into framework ──
+      - name: Copy course JSON files
+        run: |
+          # Create the course directory
+          mkdir -p adapt-framework/src/course/en
 
+          # Copy all JSON files from nova-adapt-builder src into framework
+          cp -v src/course/en/*.json adapt-framework/src/course/en/
+
+          # List what was copied
+          echo "── Course files copied ──"
+          ls -la adapt-framework/src/course/en/
+          echo ""
+
+          # Show course title for logs
+          if [ -f adapt-framework/src/course/en/course.json ]; then
+            echo "Course title:"
+            grep -o '"title": *"[^"]*"' adapt-framework/src/course/en/course.json | head -1
+          fi
+
+      # ── 7. Configure SCORM 1.2 (Spoor plugin) ──
+      - name: Configure SCORM tracking
+        run: |
+          # Ensure config.json has Spoor (SCORM) enabled
+          CONFIG_FILE="adapt-framework/src/course/en/config.json"
+
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "No config.json found — creating default with SCORM 1.2 enabled"
+            cat > "$CONFIG_FILE" << 'CONFIGEOF'
+          {
+            "_defaultLanguage": "en",
+            "_defaultDirection": "ltr",
+            "_accessibility": {
+              "_isEnabled": true,
+              "_isEnabledOnTouchDevices": false,
+              "_shouldSupportLegacyBrowsers": false,
+              "_isTextProcessorEnabled": true,
+              "_isSkipNavigationEnabled": true,
+              "_ariaLevels": {
+                "_menu": 1,
+                "_menuGroup": 2,
+                "_menuItem": 2,
+                "_page": 1,
+                "_article": 2,
+                "_block": 3,
+                "_component": 4,
+                "_componentItem": 5,
+                "_notify": 1
+              }
+            },
+            "_screenSize": {
+              "_small": 520,
+              "_medium": 760,
+              "_large": 1024
+            },
+            "_spoor": {
+              "_isEnabled": true,
+              "_tracking": {
+                "_shouldStoreResponses": true,
+                "_shouldStoreAttempts": false,
+                "_shouldRecordInteractions": true
+              },
+              "_reporting": {
+                "_onTrackingCriteria": {
+                  "_requireAssessmentPassed": false,
+                  "_requireContentCompleted": true
+                },
+                "_onAssessmentFailure": "incomplete",
+                "_resetStatusOnLanguageChange": false
+              },
+              "_advancedSettings": {
+                "_scormVersion": "1.2",
+                "_showDebugWindow": false,
+                "_commitOnStatusChange": true,
+                "_timedCommitFrequency": 10,
+                "_maxCommitRetries": 5,
+                "_commitRetryDelay": 2000,
+                "_suppressErrors": true
+              }
+            },
+            "_pageLevelProgress": {
+              "_isEnabled": true,
+              "_showPageCompletion": true,
+              "_isCompletionIndicatorEnabled": false,
+              "_isShownInNavigationBar": true
+            },
+            "_bookmarking": {
+              "_isEnabled": true,
+              "_level": "component"
+            }
+          }
+          CONFIGEOF
+            echo "✅ config.json created with SCORM 1.2"
+          else
+            echo "✅ config.json already exists"
+          fi
+
+      # ── 8. Build SCORM package ──
       - name: Build SCORM package
-        working-directory: adapt-build
-        run: npx grunt build
-
-      - name: Create SCORM zip
+        working-directory: adapt-framework
         run: |
-          cd adapt-build/build
-          zip -r ../../scorm-package.zip .
+          npx grunt build
+          echo "✅ Adapt build complete"
+          ls -la build/
 
+      # ── 9. Create SCORM zip ──
+      - name: Package SCORM zip
+        run: |
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+
+          # Extract course title for filename
+          COURSE_TITLE="nova-course"
+          if [ -f adapt-framework/src/course/en/course.json ]; then
+            TITLE=$(grep -o '"displayTitle": *"[^"]*"' adapt-framework/src/course/en/course.json | head -1 | sed 's/"displayTitle": *"//;s/"//')
+            if [ -n "$TITLE" ]; then
+              COURSE_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
+            fi
+          fi
+
+          FILENAME="SCORM-${COURSE_TITLE}-${TIMESTAMP}.zip"
+
+          cd adapt-framework/build
+          zip -r "../../${FILENAME}" . -x "*.DS_Store"
+          cd ../..
+
+          echo "SCORM_FILENAME=${FILENAME}" >> $GITHUB_ENV
+          echo "SCORM_TIMESTAMP=${TIMESTAMP}" >> $GITHUB_ENV
+
+          echo "✅ SCORM package created: ${FILENAME}"
+          ls -lh "${FILENAME}"
+
+      # ── 10. Upload as build artifact ──
       - name: Upload SCORM artifact
         uses: actions/upload-artifact@v4
         with:
           name: scorm-package
-          path: scorm-package.zip
-          retention-days: 30
+          path: ${{ env.SCORM_FILENAME }}
+          retention-days: 90
+
+      # ── 11. Create GitHub Release ──
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: scorm-${{ env.SCORM_TIMESTAMP }}
+          name: "SCORM Package — ${{ env.SCORM_TIMESTAMP }}"
+          body: |
+            ## NOVA™ SCORM 1.2 Package
+
+            Automatically built by the NOVA SCORM Pipeline.
+
+            **Standard:** SCORM 1.2 (MOD DLE compatible)
+            **Framework:** Adapt Framework v5.24.3
+            **Built:** ${{ env.SCORM_TIMESTAMP }}
+
+            ### How to deploy
+            1. Download the .zip file below
+            2. Upload to your LMS (MOD DLE, Moodle, etc.)
+            3. Select "SCORM 1.2" as the package type
+            4. Learners can launch immediately
+
+            ---
+            *Generated by NOVA™ Agentic Allied Defence Training Platform*
+          files: ${{ env.SCORM_FILENAME }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 12. Summary ──
+      - name: Build Summary
+        run: |
+          echo "## NOVA SCORM Build Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Package:** \`${{ env.SCORM_FILENAME }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **SCORM Version:** 1.2" >> $GITHUB_STEP_SUMMARY
+          echo "- **Framework:** Adapt v5.24.3" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** ✅ Ready for LMS deployment" >> $GITHUB_STEP_SUMMARY
