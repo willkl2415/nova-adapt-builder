@@ -1,7 +1,7 @@
 # ============================================================================
 # NOVA™ SCORM Build Pipeline v3.0
 # Triggers when Adapt JSON is pushed to src/course/en/
-# Clones Adapt Framework v5, installs plugins via npm, builds SCORM 1.2
+# Clones Adapt Framework v5, installs plugins from GitHub, builds SCORM 1.2
 # ============================================================================
 # FILE: .github/workflows/build-scorm.yml
 # REPO: willkl2415/nova-adapt-builder
@@ -23,7 +23,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
 
@@ -33,20 +33,20 @@ jobs:
         with:
           fetch-depth: 1
 
-      # ── 2. Setup Node.js 20 ──────────────────────────────────────────────────
+      # ── 2. Setup Node.js ─────────────────────────────────────────────────────
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '18'
 
       # ── 3. Install grunt-cli globally ────────────────────────────────────────
       - name: Install grunt-cli
         run: |
           npm install -g grunt-cli
           grunt --version
-          echo "✅ grunt-cli ready"
+          echo "✅ grunt-cli installed"
 
-      # ── 4. Clone Adapt Framework v5.24.3 ────────────────────────────────────
+      # ── 4. Clone Adapt Framework v5.24.3 ─────────────────────────────────────
       - name: Clone Adapt Framework
         run: |
           git clone --depth 1 --branch v5.24.3 \
@@ -59,64 +59,68 @@ jobs:
         working-directory: adapt-framework
         run: |
           npm install --legacy-peer-deps
-          echo "✅ npm install complete"
+          echo "✅ Framework npm install complete"
 
-      # ── 6. Install Adapt plugins via npm ────────────────────────────────────
-      # Using npm directly — adapt-cli is unreliable in CI (exit code 3 errors).
-      - name: Install Adapt plugins via npm
+      # ── 6. Install Adapt plugins from GitHub ─────────────────────────────────
+      # Adapt plugins are NOT on the npm registry — install from GitHub directly.
+      - name: Install Adapt plugins from GitHub
         working-directory: adapt-framework
         run: |
           npm install --save --legacy-peer-deps \
-            adapt-contrib-text \
-            adapt-contrib-mcq \
-            adapt-contrib-gmcq \
-            adapt-contrib-matching \
-            adapt-contrib-narrative \
-            adapt-contrib-accordion \
-            adapt-contrib-hotgraphic \
-            adapt-contrib-media \
-            adapt-contrib-blank \
+            git+https://github.com/adaptlearning/adapt-contrib-text.git \
+            git+https://github.com/adaptlearning/adapt-contrib-mcq.git \
+            git+https://github.com/adaptlearning/adapt-contrib-narrative.git \
+            git+https://github.com/adaptlearning/adapt-contrib-accordion.git \
+            git+https://github.com/adaptlearning/adapt-contrib-media.git \
+            git+https://github.com/adaptlearning/adapt-contrib-blank.git \
+            git+https://github.com/adaptlearning/adapt-contrib-assessment.git \
+            git+https://github.com/adaptlearning/adapt-contrib-assessmentResults.git \
+            git+https://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git \
+            git+https://github.com/adaptlearning/adapt-contrib-trickle.git \
+            git+https://github.com/adaptlearning/adapt-contrib-bookmarking.git \
+            git+https://github.com/adaptlearning/adapt-contrib-boxMenu.git \
+            git+https://github.com/adaptlearning/adapt-contrib-spoor.git
+          echo "✅ All plugins installed from GitHub"
+
+      # ── 7. Move plugins into Adapt src ───────────────────────────────────────
+      # Adapt build expects plugins under src/extensions, src/components, src/menu
+      - name: Move plugins into Adapt src
+        working-directory: adapt-framework
+        run: |
+          mkdir -p src/extensions src/components src/menu
+
+          for plugin in \
+            adapt-contrib-spoor \
             adapt-contrib-assessment \
             adapt-contrib-assessmentResults \
             adapt-contrib-pageLevelProgress \
             adapt-contrib-trickle \
-            adapt-contrib-bookmarking \
-            adapt-contrib-resources \
-            adapt-contrib-boxMenu \
-            adapt-contrib-spoor
-          echo "✅ All plugins installed via npm"
-
-      # ── 7. Move plugins into Adapt src directories ───────────────────────────
-      - name: Move plugins into Adapt src
-        working-directory: adapt-framework
-        run: |
-          mkdir -p src/components src/extensions src/menu
-
-          for plugin in adapt-contrib-text adapt-contrib-mcq adapt-contrib-gmcq \
-            adapt-contrib-matching adapt-contrib-narrative adapt-contrib-accordion \
-            adapt-contrib-hotgraphic adapt-contrib-media adapt-contrib-blank \
-            adapt-contrib-assessmentResults; do
-            if [ -d "node_modules/${plugin}" ]; then
-              cp -r "node_modules/${plugin}" "src/components/${plugin}"
-              echo "  → components/${plugin}"
+            adapt-contrib-bookmarking; do
+            if [ -d "node_modules/$plugin" ]; then
+              cp -r "node_modules/$plugin" "src/extensions/$plugin"
+              echo "  ✅ $plugin → src/extensions/"
             fi
           done
 
-          for plugin in adapt-contrib-assessment adapt-contrib-pageLevelProgress \
-            adapt-contrib-trickle adapt-contrib-bookmarking adapt-contrib-resources \
-            adapt-contrib-spoor; do
-            if [ -d "node_modules/${plugin}" ]; then
-              cp -r "node_modules/${plugin}" "src/extensions/${plugin}"
-              echo "  → extensions/${plugin}"
+          for plugin in \
+            adapt-contrib-text \
+            adapt-contrib-mcq \
+            adapt-contrib-narrative \
+            adapt-contrib-accordion \
+            adapt-contrib-media \
+            adapt-contrib-blank; do
+            if [ -d "node_modules/$plugin" ]; then
+              cp -r "node_modules/$plugin" "src/components/$plugin"
+              echo "  ✅ $plugin → src/components/"
             fi
           done
 
           if [ -d "node_modules/adapt-contrib-boxMenu" ]; then
             cp -r "node_modules/adapt-contrib-boxMenu" "src/menu/adapt-contrib-boxMenu"
-            echo "  → menu/adapt-contrib-boxMenu"
+            echo "  ✅ adapt-contrib-boxMenu → src/menu/"
           fi
 
-          echo "✅ Plugins moved into Adapt src directories"
+          echo "✅ Plugins moved into Adapt src"
 
       # ── 8. Copy NOVA course JSON into framework ──────────────────────────────
       - name: Copy course JSON files
@@ -133,7 +137,6 @@ jobs:
           if [ -f "$CONFIG" ]; then
             echo "✅ config.json already present"
           else
-            echo "Writing default SCORM 1.2 config.json"
             cat > "$CONFIG" << 'EOF'
           {
             "_defaultLanguage": "en",
@@ -176,10 +179,10 @@ jobs:
         working-directory: adapt-framework
         run: |
           grunt build --force
-          echo "✅ Build complete"
+          echo "✅ Adapt build complete"
           ls -la build/
 
-      # ── 11. Create SCORM zip ─────────────────────────────────────────────────
+      # ── 11. Package as SCORM zip ─────────────────────────────────────────────
       - name: Create SCORM zip
         run: |
           TIMESTAMP=$(date +%Y%m%d-%H%M%S)
@@ -207,7 +210,7 @@ jobs:
           echo "SCORM_TIMESTAMP=${TIMESTAMP}" >> $GITHUB_ENV
           echo "✅ Created: ${FILENAME} ($(du -sh ${FILENAME} | cut -f1))"
 
-      # ── 12. Upload artifact ──────────────────────────────────────────────────
+      # ── 12. Upload as workflow artifact ──────────────────────────────────────
       - name: Upload SCORM artifact
         uses: actions/upload-artifact@v4
         with:
@@ -215,7 +218,7 @@ jobs:
           path: ${{ env.SCORM_FILENAME }}
           retention-days: 90
 
-      # ── 13. Create GitHub Release ────────────────────────────────────────────
+      # ── 13. Create GitHub Release ─────────────────────────────────────────────
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -246,7 +249,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 14. Summary ──────────────────────────────────────────────────────────
+      # ── 14. Build summary ─────────────────────────────────────────────────────
       - name: Build Summary
         run: |
           echo "## ✅ NOVA SCORM Build Complete" >> $GITHUB_STEP_SUMMARY
