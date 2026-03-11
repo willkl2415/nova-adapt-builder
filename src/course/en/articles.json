@@ -27,8 +27,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-1.1.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-1.1.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
     "body": "",
     "instruction": ""
   },
@@ -88,6 +88,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to3-art3",
+    "_parentId": "page-to3",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.3.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to4-art1",
     "_parentId": "page-to4",
     "_type": "article",
@@ -106,6 +117,17 @@
     "_isOptional": false,
     "title": "TO-1.4.EO2: Demonstrate ability to confirm tasking. under the following conditions: Taski...",
     "displayTitle": "Demonstrate ability to confirm tasking. under the following conditions: Taski...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to4-art3",
+    "_parentId": "page-to4",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.4.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
     "body": "",
     "instruction": ""
   },
@@ -132,6 +154,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to5-art3",
+    "_parentId": "page-to5",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.5.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to6-art1",
     "_parentId": "page-to6",
     "_type": "article",
@@ -150,6 +183,17 @@
     "_isOptional": false,
     "title": "TO-1.6.EO2: Demonstrate ability to advise coc on equipment status. under the following co...",
     "displayTitle": "Demonstrate ability to advise coc on equipment status. under the following co...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to6-art3",
+    "_parentId": "page-to6",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.6.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
     "body": "",
     "instruction": ""
   },
@@ -176,6 +220,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to7-art3",
+    "_parentId": "page-to7",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.7.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to8-art1",
     "_parentId": "page-to8",
     "_type": "article",
@@ -198,6 +253,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to8-art3",
+    "_parentId": "page-to8",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.8.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to9-art1",
     "_parentId": "page-to9",
     "_type": "article",
@@ -216,6 +282,17 @@
     "_isOptional": false,
     "title": "TO-1.9.EO2: Demonstrate ability to communicate brief to subordinates. under the following...",
     "displayTitle": "Demonstrate ability to communicate brief to subordinates. under the following...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to9-art3",
+    "_parentId": "page-to9",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.9.EO3: Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
+    "displayTitle": "Achieve the required standard: 1-7.  A, B, C, E, H, J, K.",
     "body": "",
     "instruction": ""
   },
@@ -247,8 +324,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-1.10.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-1.10.EO3: Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
     "body": "",
     "instruction": ""
   },
@@ -308,6 +385,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to12-art3",
+    "_parentId": "page-to12",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.12.EO3: Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to13-art1",
     "_parentId": "page-to13",
     "_type": "article",
@@ -330,6 +418,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to13-art3",
+    "_parentId": "page-to13",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.13.EO3: Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to14-art1",
     "_parentId": "page-to14",
     "_type": "article",
@@ -348,6 +447,17 @@
     "_isOptional": false,
     "title": "TO-1.14.EO2: Demonstrate ability to 4. confirm capability readiness with coc. under the fo...",
     "displayTitle": "Demonstrate ability to 4. confirm capability readiness with coc. under the fo...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to14-art3",
+    "_parentId": "page-to14",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.14.EO3: Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.",
     "body": "",
     "instruction": ""
   },
@@ -379,8 +489,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-1.15.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-1.15.EO3: Achieve the required standard: 1-4. A, AU, AV.",
+    "displayTitle": "Achieve the required standard: 1-4. A, AU, AV.",
     "body": "",
     "instruction": ""
   },
@@ -440,6 +550,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to17-art3",
+    "_parentId": "page-to17",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.17.EO3: Achieve the required standard: 1-4. A, AU, AV.",
+    "displayTitle": "Achieve the required standard: 1-4. A, AU, AV.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to18-art1",
     "_parentId": "page-to18",
     "_type": "article",
@@ -458,6 +579,17 @@
     "_isOptional": false,
     "title": "TO-1.18.EO2: Demonstrate ability to investigate subordinates tactical and military trainin...",
     "displayTitle": "Demonstrate ability to investigate subordinates tactical and military trainin...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to18-art3",
+    "_parentId": "page-to18",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.18.EO3: Achieve the required standard: 1-4. A, AU, AV.",
+    "displayTitle": "Achieve the required standard: 1-4. A, AU, AV.",
     "body": "",
     "instruction": ""
   },
@@ -484,6 +616,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to19-art3",
+    "_parentId": "page-to19",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.19.EO3: Achieve the required standard: 1-4. A, AU, AV.",
+    "displayTitle": "Achieve the required standard: 1-4. A, AU, AV.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to20-art1",
     "_parentId": "page-to20",
     "_type": "article",
@@ -502,6 +645,17 @@
     "_isOptional": false,
     "title": "TO-1.20.EO2: Demonstrate ability to ensure soldiers’ personal administration is completed....",
     "displayTitle": "Demonstrate ability to ensure soldiers’ personal administration is completed....",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to20-art3",
+    "_parentId": "page-to20",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-1.20.EO3: Achieve the required standard: 1-4. A, AU, AV.",
+    "displayTitle": "Achieve the required standard: 1-4. A, AU, AV.",
     "body": "",
     "instruction": ""
   },
@@ -566,8 +720,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-2.22.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-2.22.EO3: Achieve the required standard: 1-3. A, AW, AX, AY, AZ.",
+    "displayTitle": "Achieve the required standard: 1-3. A, AW, AX, AY, AZ.",
     "body": "",
     "instruction": ""
   },
@@ -627,6 +781,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to24-art3",
+    "_parentId": "page-to24",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.24.EO3: Achieve the required standard: 1-3. A, AW, AX, AY, AZ.",
+    "displayTitle": "Achieve the required standard: 1-3. A, AW, AX, AY, AZ.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to25-art1",
     "_parentId": "page-to25",
     "_type": "article",
@@ -634,6 +799,17 @@
     "_isOptional": false,
     "title": "TO-2.25.EO1: Describe the purpose, procedures, and safety considerations for: Move Capabil...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Move Capabil...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to25-art2",
+    "_parentId": "page-to25",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.25.EO2: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
     "body": "",
     "instruction": ""
   },
@@ -665,8 +841,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-2.26.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-2.26.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
     "body": "",
     "instruction": ""
   },
@@ -726,6 +902,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to28-art3",
+    "_parentId": "page-to28",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.28.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to29-art1",
     "_parentId": "page-to29",
     "_type": "article",
@@ -744,6 +931,17 @@
     "_isOptional": false,
     "title": "TO-2.29.EO2: Demonstrate ability to continue liaison/comms with movcon and coc. under the ...",
     "displayTitle": "Demonstrate ability to continue liaison/comms with movcon and coc. under the ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to29-art3",
+    "_parentId": "page-to29",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.29.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
     "body": "",
     "instruction": ""
   },
@@ -770,6 +968,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to30-art3",
+    "_parentId": "page-to30",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.30.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to31-art1",
     "_parentId": "page-to31",
     "_type": "article",
@@ -788,6 +997,17 @@
     "_isOptional": false,
     "title": "TO-2.31.EO2: Demonstrate ability to identify and liaise with local comd. under the followi...",
     "displayTitle": "Demonstrate ability to identify and liaise with local comd. under the followi...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to31-art3",
+    "_parentId": "page-to31",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.31.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
     "body": "",
     "instruction": ""
   },
@@ -814,6 +1034,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to32-art3",
+    "_parentId": "page-to32",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.32.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to33-art1",
     "_parentId": "page-to33",
     "_type": "article",
@@ -836,6 +1067,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to33-art3",
+    "_parentId": "page-to33",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.33.EO3: Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "displayTitle": "Achieve the required standard: 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to34-art1",
     "_parentId": "page-to34",
     "_type": "article",
@@ -843,6 +1085,17 @@
     "_isOptional": false,
     "title": "TO-2.34.EO1: Describe the purpose, procedures, and safety considerations for: Site and Est...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Site and Est...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to34-art2",
+    "_parentId": "page-to34",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.34.EO2: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
     "body": "",
     "instruction": ""
   },
@@ -874,8 +1127,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-2.35.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-2.35.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
     "body": "",
     "instruction": ""
   },
@@ -935,6 +1188,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to37-art3",
+    "_parentId": "page-to37",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.37.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to38-art1",
     "_parentId": "page-to38",
     "_type": "article",
@@ -953,6 +1217,17 @@
     "_isOptional": false,
     "title": "TO-2.38.EO2: Demonstrate ability to inspect the set-up of the capability. under the follow...",
     "displayTitle": "Demonstrate ability to inspect the set-up of the capability. under the follow...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to38-art3",
+    "_parentId": "page-to38",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.38.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
     "body": "",
     "instruction": ""
   },
@@ -979,6 +1254,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to39-art3",
+    "_parentId": "page-to39",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.39.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to40-art1",
     "_parentId": "page-to40",
     "_type": "article",
@@ -997,6 +1283,17 @@
     "_isOptional": false,
     "title": "TO-2.40.EO2: Demonstrate ability to react to tactical and/or technical changes in the situ...",
     "displayTitle": "Demonstrate ability to react to tactical and/or technical changes in the situ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to40-art3",
+    "_parentId": "page-to40",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.40.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
     "body": "",
     "instruction": ""
   },
@@ -1023,6 +1320,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to41-art3",
+    "_parentId": "page-to41",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.41.EO3: Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "displayTitle": "Achieve the required standard: 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to42-art1",
     "_parentId": "page-to42",
     "_type": "article",
@@ -1030,6 +1338,17 @@
     "_isOptional": false,
     "title": "TO-2.42.EO1: Describe the purpose, procedures, and safety considerations for: Liaison With...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Liaison With...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to42-art2",
+    "_parentId": "page-to42",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.42.EO2: Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
     "body": "",
     "instruction": ""
   },
@@ -1061,8 +1380,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-2.43.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-2.43.EO3: Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
     "body": "",
     "instruction": ""
   },
@@ -1122,6 +1441,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to45-art3",
+    "_parentId": "page-to45",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.45.EO3: Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to46-art1",
     "_parentId": "page-to46",
     "_type": "article",
@@ -1144,6 +1474,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to46-art3",
+    "_parentId": "page-to46",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-2.46.EO3: Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "displayTitle": "Achieve the required standard: 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to47-art1",
     "_parentId": "page-to47",
     "_type": "article",
@@ -1151,6 +1492,17 @@
     "_isOptional": false,
     "title": "TO-3.47.EO1: Describe the purpose, procedures, and safety considerations for: Establish an...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Establish an...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to47-art2",
+    "_parentId": "page-to47",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.47.EO2: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
     "body": "",
     "instruction": ""
   },
@@ -1182,8 +1534,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-3.48.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-3.48.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
     "body": "",
     "instruction": ""
   },
@@ -1243,6 +1595,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to50-art3",
+    "_parentId": "page-to50",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.50.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to51-art1",
     "_parentId": "page-to51",
     "_type": "article",
@@ -1261,6 +1624,17 @@
     "_isOptional": false,
     "title": "TO-3.51.EO2: Demonstrate ability to apply r2 procedures to own coc (as per sops). under th...",
     "displayTitle": "Demonstrate ability to apply r2 procedures to own coc (as per sops). under th...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to51-art3",
+    "_parentId": "page-to51",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.51.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
     "body": "",
     "instruction": ""
   },
@@ -1287,6 +1661,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to52-art3",
+    "_parentId": "page-to52",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.52.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to53-art1",
     "_parentId": "page-to53",
     "_type": "article",
@@ -1305,6 +1690,17 @@
     "_isOptional": false,
     "title": "TO-3.53.EO2: Demonstrate ability to ensure continued maintenance of equipment. under the f...",
     "displayTitle": "Demonstrate ability to ensure continued maintenance of equipment. under the f...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to53-art3",
+    "_parentId": "page-to53",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.53.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
     "body": "",
     "instruction": ""
   },
@@ -1331,6 +1727,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to54-art3",
+    "_parentId": "page-to54",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.54.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to55-art1",
     "_parentId": "page-to55",
     "_type": "article",
@@ -1353,6 +1760,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to55-art3",
+    "_parentId": "page-to55",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.55.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to56-art1",
     "_parentId": "page-to56",
     "_type": "article",
@@ -1371,6 +1789,17 @@
     "_isOptional": false,
     "title": "TO-3.56.EO2: Demonstrate ability to account for classified documents, keys and cryptograph...",
     "displayTitle": "Demonstrate ability to account for classified documents, keys and cryptograph...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to56-art3",
+    "_parentId": "page-to56",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.56.EO3: Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
+    "displayTitle": "Achieve the required standard: 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF...",
     "body": "",
     "instruction": ""
   },
@@ -1402,8 +1831,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-3.57.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-3.57.EO3: Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
     "body": "",
     "instruction": ""
   },
@@ -1463,6 +1892,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to59-art3",
+    "_parentId": "page-to59",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.59.EO3: Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to60-art1",
     "_parentId": "page-to60",
     "_type": "article",
@@ -1481,6 +1921,17 @@
     "_isOptional": false,
     "title": "TO-3.60.EO2: Demonstrate ability to produce an updated events/reports log. under the follo...",
     "displayTitle": "Demonstrate ability to produce an updated events/reports log. under the follo...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to60-art3",
+    "_parentId": "page-to60",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.60.EO3: Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
     "body": "",
     "instruction": ""
   },
@@ -1507,6 +1958,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to61-art3",
+    "_parentId": "page-to61",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.61.EO3: Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to62-art1",
     "_parentId": "page-to62",
     "_type": "article",
@@ -1525,6 +1987,17 @@
     "_isOptional": false,
     "title": "TO-3.62.EO2: Demonstrate ability to produce a handover/takeover report as required for r2 ...",
     "displayTitle": "Demonstrate ability to produce a handover/takeover report as required for r2 ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to62-art3",
+    "_parentId": "page-to62",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.62.EO3: Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM,...",
     "body": "",
     "instruction": ""
   },
@@ -1556,8 +2029,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-3.63.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-3.63.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1617,6 +2090,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to65-art3",
+    "_parentId": "page-to65",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.65.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to66-art1",
     "_parentId": "page-to66",
     "_type": "article",
@@ -1635,6 +2119,17 @@
     "_isOptional": false,
     "title": "TO-3.66.EO2: Demonstrate ability to identify mission priorities. under the following condi...",
     "displayTitle": "Demonstrate ability to identify mission priorities. under the following condi...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to66-art3",
+    "_parentId": "page-to66",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.66.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1661,6 +2156,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to67-art3",
+    "_parentId": "page-to67",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.67.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to68-art1",
     "_parentId": "page-to68",
     "_type": "article",
@@ -1679,6 +2185,17 @@
     "_isOptional": false,
     "title": "TO-3.68.EO2: Demonstrate ability to produce reports on the specified task. under the follo...",
     "displayTitle": "Demonstrate ability to produce reports on the specified task. under the follo...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to68-art3",
+    "_parentId": "page-to68",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.68.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1705,6 +2222,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to69-art3",
+    "_parentId": "page-to69",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.69.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to70-art1",
     "_parentId": "page-to70",
     "_type": "article",
@@ -1723,6 +2251,17 @@
     "_isOptional": false,
     "title": "TO-3.70.EO2: Demonstrate ability to react to technical changes in the situation. under the...",
     "displayTitle": "Demonstrate ability to react to technical changes in the situation. under the...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to70-art3",
+    "_parentId": "page-to70",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.70.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1749,6 +2288,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to71-art3",
+    "_parentId": "page-to71",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.71.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to72-art1",
     "_parentId": "page-to72",
     "_type": "article",
@@ -1767,6 +2317,17 @@
     "_isOptional": false,
     "title": "TO-3.72.EO2: Demonstrate ability to advise the local/site comd to changes in the tactical ...",
     "displayTitle": "Demonstrate ability to advise the local/site comd to changes in the tactical ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to72-art3",
+    "_parentId": "page-to72",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.72.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1793,6 +2354,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to73-art3",
+    "_parentId": "page-to73",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.73.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to74-art1",
     "_parentId": "page-to74",
     "_type": "article",
@@ -1811,6 +2383,17 @@
     "_isOptional": false,
     "title": "TO-3.74.EO2: Demonstrate ability to communicate advice to supporting deployed assets and h...",
     "displayTitle": "Demonstrate ability to communicate advice to supporting deployed assets and h...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to74-art3",
+    "_parentId": "page-to74",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.74.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -1837,6 +2420,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to75-art3",
+    "_parentId": "page-to75",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.75.EO3: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to76-art1",
     "_parentId": "page-to76",
     "_type": "article",
@@ -1848,6 +2442,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to76-art2",
+    "_parentId": "page-to76",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.76.EO2: Achieve the required standard: 1-8. A, E, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-8. A, E, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to77-art1",
     "_parentId": "page-to77",
     "_type": "article",
@@ -1855,6 +2460,17 @@
     "_isOptional": false,
     "title": "TO-3.77.EO1: Describe the purpose, procedures, and safety considerations for: Identify Cap...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Identify Cap...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to77-art2",
+    "_parentId": "page-to77",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-3.77.EO2: Achieve the required standard: 1-2. A, B, D, F, H, Y, AA, AX.",
+    "displayTitle": "Achieve the required standard: 1-2. A, B, D, F, H, Y, AA, AX.",
     "body": "",
     "instruction": ""
   },
@@ -1886,8 +2502,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-3.78.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-3.78.EO3: Achieve the required standard: 1-2. A, B, D, F, H, Y, AA, AX.",
+    "displayTitle": "Achieve the required standard: 1-2. A, B, D, F, H, Y, AA, AX.",
     "body": "",
     "instruction": ""
   },
@@ -1952,8 +2568,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-4.80.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-4.80.EO3: Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2013,6 +2629,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to82-art3",
+    "_parentId": "page-to82",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.82.EO3: Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to83-art1",
     "_parentId": "page-to83",
     "_type": "article",
@@ -2031,6 +2658,17 @@
     "_isOptional": false,
     "title": "TO-4.83.EO2: Demonstrate ability to identify and act upon the ability to reduce manpower. ...",
     "displayTitle": "Demonstrate ability to identify and act upon the ability to reduce manpower. ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to83-art3",
+    "_parentId": "page-to83",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.83.EO3: Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2057,6 +2695,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to84-art3",
+    "_parentId": "page-to84",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.84.EO3: Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to85-art1",
     "_parentId": "page-to85",
     "_type": "article",
@@ -2075,6 +2724,17 @@
     "_isOptional": false,
     "title": "TO-4.85.EO2: Demonstrate ability to react to changes that may affect the operational situa...",
     "displayTitle": "Demonstrate ability to react to changes that may affect the operational situa...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to85-art3",
+    "_parentId": "page-to85",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.85.EO3: Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-5. A, K, N, X, AB, AF, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2106,8 +2766,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-4.86.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-4.86.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2167,6 +2827,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to88-art3",
+    "_parentId": "page-to88",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.88.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to89-art1",
     "_parentId": "page-to89",
     "_type": "article",
@@ -2185,6 +2856,17 @@
     "_isOptional": false,
     "title": "TO-4.89.EO2: Demonstrate ability to identify and enhance the personnel development of deta...",
     "displayTitle": "Demonstrate ability to identify and enhance the personnel development of deta...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to89-art3",
+    "_parentId": "page-to89",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.89.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2211,6 +2893,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to90-art3",
+    "_parentId": "page-to90",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.90.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to91-art1",
     "_parentId": "page-to91",
     "_type": "article",
@@ -2229,6 +2922,17 @@
     "_isOptional": false,
     "title": "TO-4.91.EO2: Demonstrate ability to provide subordinates with trade advice. under the foll...",
     "displayTitle": "Demonstrate ability to provide subordinates with trade advice. under the foll...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to91-art3",
+    "_parentId": "page-to91",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.91.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2255,6 +2959,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to92-art3",
+    "_parentId": "page-to92",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.92.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to93-art1",
     "_parentId": "page-to93",
     "_type": "article",
@@ -2273,6 +2988,17 @@
     "_isOptional": false,
     "title": "TO-4.93.EO2: Demonstrate ability to relieve soldiers from their duties when appropriate to...",
     "displayTitle": "Demonstrate ability to relieve soldiers from their duties when appropriate to...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to93-art3",
+    "_parentId": "page-to93",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.93.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2299,6 +3025,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to94-art3",
+    "_parentId": "page-to94",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.94.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to95-art1",
     "_parentId": "page-to95",
     "_type": "article",
@@ -2317,6 +3054,17 @@
     "_isOptional": false,
     "title": "TO-4.95.EO2: Demonstrate ability to to allow for leave (inc r&r). under the following cond...",
     "displayTitle": "Demonstrate ability to to allow for leave (inc r&r). under the following cond...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to95-art3",
+    "_parentId": "page-to95",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.95.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2343,6 +3091,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to96-art3",
+    "_parentId": "page-to96",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.96.EO3: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to97-art1",
     "_parentId": "page-to97",
     "_type": "article",
@@ -2350,6 +3109,17 @@
     "_isOptional": false,
     "title": "TO-4.97.EO1: Describe the purpose, procedures, and safety considerations for: To allow for...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: To allow for...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to97-art2",
+    "_parentId": "page-to97",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.97.EO2: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
     "body": "",
     "instruction": ""
   },
@@ -2365,6 +3135,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to98-art2",
+    "_parentId": "page-to98",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.98.EO2: Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "displayTitle": "Achieve the required standard: 1-8. A, X, AF, AU, AV, BB.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to99-art1",
     "_parentId": "page-to99",
     "_type": "article",
@@ -2372,6 +3153,17 @@
     "_isOptional": false,
     "title": "TO-4.99.EO1: Describe the purpose, procedures, and safety considerations for: Manage Accou...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Manage Accou...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to99-art2",
+    "_parentId": "page-to99",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.99.EO2: Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "displayTitle": "Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
     "body": "",
     "instruction": ""
   },
@@ -2403,8 +3195,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-4.100.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-4.100.EO3: Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "displayTitle": "Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
     "body": "",
     "instruction": ""
   },
@@ -2464,6 +3256,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to102-art3",
+    "_parentId": "page-to102",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.102.EO3: Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "displayTitle": "Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to103-art1",
     "_parentId": "page-to103",
     "_type": "article",
@@ -2482,6 +3285,17 @@
     "_isOptional": false,
     "title": "TO-4.103.EO2: Demonstrate ability to ensure the correct accounting of protectively marked m...",
     "displayTitle": "Demonstrate ability to ensure the correct accounting of protectively marked m...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to103-art3",
+    "_parentId": "page-to103",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.103.EO3: Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "displayTitle": "Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
     "body": "",
     "instruction": ""
   },
@@ -2508,6 +3322,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to104-art3",
+    "_parentId": "page-to104",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.104.EO3: Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "displayTitle": "Achieve the required standard: 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, A...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to105-art1",
     "_parentId": "page-to105",
     "_type": "article",
@@ -2515,6 +3340,17 @@
     "_isOptional": false,
     "title": "TO-4.105.EO1: Describe the purpose, procedures, and safety considerations for: Manage the S...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Manage the S...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to105-art2",
+    "_parentId": "page-to105",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.105.EO2: Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
     "body": "",
     "instruction": ""
   },
@@ -2546,8 +3382,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-4.106.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-4.106.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
     "body": "",
     "instruction": ""
   },
@@ -2607,6 +3443,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to108-art3",
+    "_parentId": "page-to108",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.108.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to109-art1",
     "_parentId": "page-to109",
     "_type": "article",
@@ -2625,6 +3472,17 @@
     "_isOptional": false,
     "title": "TO-4.109.EO2: Demonstrate ability to oversee the maintenance of equipment. under the follow...",
     "displayTitle": "Demonstrate ability to oversee the maintenance of equipment. under the follow...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to109-art3",
+    "_parentId": "page-to109",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-4.109.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.",
     "body": "",
     "instruction": ""
   },
@@ -2656,8 +3514,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-5.110.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-5.110.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2717,6 +3575,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to112-art3",
+    "_parentId": "page-to112",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.112.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to113-art1",
     "_parentId": "page-to113",
     "_type": "article",
@@ -2735,6 +3604,17 @@
     "_isOptional": false,
     "title": "TO-5.113.EO2: Demonstrate ability to brief local/site comd on the task. under the following...",
     "displayTitle": "Demonstrate ability to brief local/site comd on the task. under the following...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to113-art3",
+    "_parentId": "page-to113",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.113.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2761,6 +3641,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to114-art3",
+    "_parentId": "page-to114",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.114.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to115-art1",
     "_parentId": "page-to115",
     "_type": "article",
@@ -2779,6 +3670,17 @@
     "_isOptional": false,
     "title": "TO-5.115.EO2: Demonstrate ability to plan detachment withdrawal in accordance with the prio...",
     "displayTitle": "Demonstrate ability to plan detachment withdrawal in accordance with the prio...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to115-art3",
+    "_parentId": "page-to115",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.115.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2805,6 +3707,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to116-art3",
+    "_parentId": "page-to116",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.116.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to117-art1",
     "_parentId": "page-to117",
     "_type": "article",
@@ -2823,6 +3736,17 @@
     "_isOptional": false,
     "title": "TO-5.117.EO2: Demonstrate ability to ensure the correct g3/g4 elements are considered. unde...",
     "displayTitle": "Demonstrate ability to ensure the correct g3/g4 elements are considered. unde...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to117-art3",
+    "_parentId": "page-to117",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.117.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2849,6 +3773,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to118-art3",
+    "_parentId": "page-to118",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.118.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to119-art1",
     "_parentId": "page-to119",
     "_type": "article",
@@ -2871,6 +3806,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to119-art3",
+    "_parentId": "page-to119",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.119.EO3: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to120-art1",
     "_parentId": "page-to120",
     "_type": "article",
@@ -2878,6 +3824,17 @@
     "_isOptional": false,
     "title": "TO-5.120.EO1: Describe the purpose, procedures, and safety considerations for: Communicate ...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Communicate ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to120-art2",
+    "_parentId": "page-to120",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.120.EO2: Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
+    "displayTitle": "Achieve the required standard: 1-7. A, G, J, N, M, O, P, Z, AC, AW, AX, AY.",
     "body": "",
     "instruction": ""
   },
@@ -2909,8 +3866,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-5.121.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-5.121.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
     "body": "",
     "instruction": ""
   },
@@ -2970,6 +3927,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to123-art3",
+    "_parentId": "page-to123",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.123.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to124-art1",
     "_parentId": "page-to124",
     "_type": "article",
@@ -2988,6 +3956,17 @@
     "_isOptional": false,
     "title": "TO-5.124.EO2: Demonstrate ability to confirm tasking. under the following conditions: Opera...",
     "displayTitle": "Demonstrate ability to confirm tasking. under the following conditions: Opera...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to124-art3",
+    "_parentId": "page-to124",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.124.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
     "body": "",
     "instruction": ""
   },
@@ -3014,6 +3993,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to125-art3",
+    "_parentId": "page-to125",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.125.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to126-art1",
     "_parentId": "page-to126",
     "_type": "article",
@@ -3032,6 +4022,17 @@
     "_isOptional": false,
     "title": "TO-5.126.EO2: Demonstrate ability to manage rip requirements. under the following condition...",
     "displayTitle": "Demonstrate ability to manage rip requirements. under the following condition...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to126-art3",
+    "_parentId": "page-to126",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.126.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
     "body": "",
     "instruction": ""
   },
@@ -3058,6 +4059,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to127-art3",
+    "_parentId": "page-to127",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.127.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to128-art1",
     "_parentId": "page-to128",
     "_type": "article",
@@ -3076,6 +4088,17 @@
     "_isOptional": false,
     "title": "TO-5.128.EO2: Demonstrate ability to ensure local/site comd requirements are considered. un...",
     "displayTitle": "Demonstrate ability to ensure local/site comd requirements are considered. un...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to128-art3",
+    "_parentId": "page-to128",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.128.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
     "body": "",
     "instruction": ""
   },
@@ -3102,6 +4125,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to129-art3",
+    "_parentId": "page-to129",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.129.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to130-art1",
     "_parentId": "page-to130",
     "_type": "article",
@@ -3120,6 +4154,17 @@
     "_isOptional": false,
     "title": "TO-5.130.EO2: Demonstrate ability to inform coc when each phase of the task is complete. un...",
     "displayTitle": "Demonstrate ability to inform coc when each phase of the task is complete. un...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to130-art3",
+    "_parentId": "page-to130",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.130.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
     "body": "",
     "instruction": ""
   },
@@ -3146,6 +4191,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to131-art3",
+    "_parentId": "page-to131",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.131.EO3: Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "displayTitle": "Achieve the required standard: 1-5. A, E, J, M, N, O, Q, AC, AF, AW, AX, AY, BA.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to132-art1",
     "_parentId": "page-to132",
     "_type": "article",
@@ -3153,6 +4209,17 @@
     "_isOptional": false,
     "title": "TO-5.132.EO1: Describe the purpose, procedures, and safety considerations for: Regenerate C...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Regenerate C...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to132-art2",
+    "_parentId": "page-to132",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.132.EO2: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3184,8 +4251,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-5.133.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-5.133.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3245,6 +4312,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to135-art3",
+    "_parentId": "page-to135",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.135.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to136-art1",
     "_parentId": "page-to136",
     "_type": "article",
@@ -3263,6 +4341,17 @@
     "_isOptional": false,
     "title": "TO-5.136.EO2: Demonstrate ability to all system data is protected. under the following cond...",
     "displayTitle": "Demonstrate ability to all system data is protected. under the following cond...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to136-art3",
+    "_parentId": "page-to136",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.136.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3289,6 +4378,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to137-art3",
+    "_parentId": "page-to137",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.137.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to138-art1",
     "_parentId": "page-to138",
     "_type": "article",
@@ -3307,6 +4407,17 @@
     "_isOptional": false,
     "title": "TO-5.138.EO2: Demonstrate ability to all equipment held on charge is accounted for. under t...",
     "displayTitle": "Demonstrate ability to all equipment held on charge is accounted for. under t...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to138-art3",
+    "_parentId": "page-to138",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.138.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3333,6 +4444,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to139-art3",
+    "_parentId": "page-to139",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.139.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to140-art1",
     "_parentId": "page-to140",
     "_type": "article",
@@ -3351,6 +4473,17 @@
     "_isOptional": false,
     "title": "TO-5.140.EO2: Demonstrate ability to level 1 maintenance conducted as required. under the f...",
     "displayTitle": "Demonstrate ability to level 1 maintenance conducted as required. under the f...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to140-art3",
+    "_parentId": "page-to140",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.140.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3377,6 +4510,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to141-art3",
+    "_parentId": "page-to141",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.141.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to142-art1",
     "_parentId": "page-to142",
     "_type": "article",
@@ -3395,6 +4539,17 @@
     "_isOptional": false,
     "title": "TO-5.142.EO2: Demonstrate ability to ensure replenishment of consumables and combat stores....",
     "displayTitle": "Demonstrate ability to ensure replenishment of consumables and combat stores....",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to142-art3",
+    "_parentId": "page-to142",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.142.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
     "body": "",
     "instruction": ""
   },
@@ -3421,6 +4576,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to143-art3",
+    "_parentId": "page-to143",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.143.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to144-art1",
     "_parentId": "page-to144",
     "_type": "article",
@@ -3443,6 +4609,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to144-art3",
+    "_parentId": "page-to144",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-5.144.EO3: Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "displayTitle": "Achieve the required standard: 1-3. A, B, C, D, F, H, I, T, X, Y, AC, AF, AG,...",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to145-art1",
     "_parentId": "page-to145",
     "_type": "article",
@@ -3450,6 +4627,17 @@
     "_isOptional": false,
     "title": "TO-6.145.EO1: Describe the purpose, procedures, and safety considerations for: Provide SME ...",
     "displayTitle": "Describe the purpose, procedures, and safety considerations for: Provide SME ...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to145-art2",
+    "_parentId": "page-to145",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-6.145.EO2: Achieve the required standard: 1-2. A, R, X, BB.",
+    "displayTitle": "Achieve the required standard: 1-2. A, R, X, BB.",
     "body": "",
     "instruction": ""
   },
@@ -3481,8 +4669,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-6.146.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-6.146.EO3: Achieve the required standard: 1-2. A, R, X, BB.",
+    "displayTitle": "Achieve the required standard: 1-2. A, R, X, BB.",
     "body": "",
     "instruction": ""
   },
@@ -3531,6 +4719,17 @@
     "instruction": ""
   },
   {
+    "_id": "page-to148-art2",
+    "_parentId": "page-to148",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-6.148.EO2: Achieve the required standard: 1-3. BC.",
+    "displayTitle": "Achieve the required standard: 1-3. BC.",
+    "body": "",
+    "instruction": ""
+  },
+  {
     "_id": "page-to149-art1",
     "_parentId": "page-to149",
     "_type": "article",
@@ -3558,8 +4757,8 @@
     "_type": "article",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO-6.149.EO3: Achieve the required standard: In accordance with:",
-    "displayTitle": "Achieve the required standard: In accordance with:",
+    "title": "TO-6.149.EO3: Achieve the required standard: 1-3. BC.",
+    "displayTitle": "Achieve the required standard: 1-3. BC.",
     "body": "",
     "instruction": ""
   },
@@ -3615,6 +4814,17 @@
     "_isOptional": false,
     "title": "TO-6.151.EO2: Demonstrate ability to perform the duties of a regimental sports representati...",
     "displayTitle": "Demonstrate ability to perform the duties of a regimental sports representati...",
+    "body": "",
+    "instruction": ""
+  },
+  {
+    "_id": "page-to151-art3",
+    "_parentId": "page-to151",
+    "_type": "article",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO-6.151.EO3: Achieve the required standard: 1-3. BC.",
+    "displayTitle": "Achieve the required standard: 1-3. BC.",
     "body": "",
     "instruction": ""
   },
