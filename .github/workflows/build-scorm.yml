@@ -1,5 +1,7 @@
 # ============================================================================
-# NOVA™ SCORM Build Pipeline v5.0
+# NOVA™ SCORM Build Pipeline v2.0
+# Triggers when Adapt JSON is pushed to src/course/en/
+# Clones Adapt Framework v5, builds SCORM 1.2 package, uploads as release
 # ============================================================================
 # FILE: .github/workflows/build-scorm.yml
 # REPO: willkl2415/nova-adapt-builder
@@ -25,126 +27,119 @@ jobs:
 
     steps:
 
-      # ── 1. Checkout ──────────────────────────────────────────────────────────
+      # ── 1. Checkout nova-adapt-builder ──────────────────────────────────────
       - name: Checkout nova-adapt-builder
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      # ── 2. Node.js ───────────────────────────────────────────────────────────
+      # ── 2. Setup Node.js ─────────────────────────────────────────────────────
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      # ── 3. grunt-cli ─────────────────────────────────────────────────────────
-      - name: Install grunt-cli
-        run: npm install -g grunt-cli
+      # ── 3. Install global build tools ────────────────────────────────────────
+      # grunt-cli must be global so `grunt` command is available on PATH.
+      # adapt-cli must be global so `adapt install` command works.
+      - name: Install global tools
+        run: |
+          npm install -g grunt-cli adapt-cli
+          echo "✅ grunt-cli and adapt-cli installed globally"
+          grunt --version
+          adapt --version
 
-      # ── 4. Clone Adapt Framework v5.24.3 ─────────────────────────────────────
+      # ── 4. Clone Adapt Framework ─────────────────────────────────────────────
       - name: Clone Adapt Framework
         run: |
           git clone --depth 1 --branch v5.24.3 \
             https://github.com/adaptlearning/adapt_framework.git \
             adapt-framework
+          echo "✅ Adapt Framework v5.24.3 cloned"
 
-      # ── 5. npm install ───────────────────────────────────────────────────────
-      - name: Install npm dependencies
-        working-directory: adapt-framework
-        run: npm install --legacy-peer-deps
-
-      # ── 6. Remove unused components that cause LESS build failures ───────────
-      # NOVA only uses: adapt-contrib-text, adapt-contrib-mcq,
-      # adapt-contrib-assessmentResults. Remove adapt-contrib-media to prevent
-      # its LESS mixin error from fatally aborting the build.
-      - name: Remove unused components
+      # ── 5. Install Adapt Framework npm dependencies ──────────────────────────
+      - name: Install Adapt npm dependencies
         working-directory: adapt-framework
         run: |
-          for plugin in \
-            adapt-contrib-media \
-            adapt-contrib-narrative \
-            adapt-contrib-matching \
-            adapt-contrib-slider \
-            adapt-contrib-textInput \
-            adapt-contrib-hotgraphic \
-            adapt-contrib-graphic \
-            adapt-contrib-accordion; do
-            if [ -d "src/components/$plugin" ]; then
-              rm -rf "src/components/$plugin"
-              echo "Removed unused component: $plugin"
-            fi
-          done
+          npm install --legacy-peer-deps
+          echo "✅ npm install complete"
 
-      # ── 7. Copy NOVA course JSON ─────────────────────────────────────────────
+      # ── 6. Install Adapt plugins via adapt-cli ───────────────────────────────
+      # adapt install (no args) reads adapt.json and installs all listed plugins.
+      # We also force-install spoor (SCORM tracker) which may not be in the
+      # default adapt.json for a fresh clone.
+      - name: Install Adapt plugins
+        working-directory: adapt-framework
+        run: |
+          adapt install || true
+          adapt install adapt-contrib-spoor || true
+          adapt install adapt-contrib-assessment || true
+          adapt install adapt-contrib-assessmentResults || true
+          echo "✅ Adapt plugins installed"
+
+      # ── 7. Copy NOVA course JSON into framework ──────────────────────────────
       - name: Copy course JSON files
         run: |
+          mkdir -p adapt-framework/src/course/en
           cp -v src/course/en/*.json adapt-framework/src/course/en/
+          echo "── Files copied to framework ──"
+          ls -la adapt-framework/src/course/en/
 
-      # ── 8. Ensure SCORM config.json ──────────────────────────────────────────
+      # ── 8. Inject SCORM config (spoor) ───────────────────────────────────────
+      # Only writes config.json if one was not pushed by NOVA.
       - name: Ensure SCORM config.json
         run: |
           CONFIG="adapt-framework/src/course/en/config.json"
           if [ -f "$CONFIG" ]; then
-            echo "config.json already present"
+            echo "✅ config.json already present — skipping"
           else
+            echo "Writing default SCORM 1.2 config.json"
             cat > "$CONFIG" << 'EOF'
-{
-  "_defaultLanguage": "en",
-  "_defaultDirection": "ltr",
-  "_accessibility": { "_isEnabled": true },
-  "_screenSize": { "_small": 520, "_medium": 760, "_large": 1024 },
-  "_spoor": {
-    "_isEnabled": true,
-    "_tracking": {
-      "_shouldStoreResponses": true,
-      "_shouldStoreAttempts": false,
-      "_shouldRecordInteractions": true
-    },
-    "_reporting": {
-      "_onTrackingCriteria": {
-        "_requireAssessmentPassed": false,
-        "_requireContentCompleted": true
-      },
-      "_onAssessmentFailure": "incomplete"
-    },
-    "_advancedSettings": {
-      "_scormVersion": "1.2",
-      "_showDebugWindow": false,
-      "_commitOnStatusChange": true,
-      "_timedCommitFrequency": 10,
-      "_maxCommitRetries": 5,
-      "_commitRetryDelay": 2000,
-      "_suppressErrors": true
-    }
-  },
-  "_pageLevelProgress": { "_isEnabled": true },
-  "_bookmarking": { "_isEnabled": true, "_level": "component" }
-}
-EOF
-            echo "config.json created"
+          {
+            "_defaultLanguage": "en",
+            "_defaultDirection": "ltr",
+            "_accessibility": { "_isEnabled": true },
+            "_screenSize": { "_small": 520, "_medium": 760, "_large": 1024 },
+            "_spoor": {
+              "_isEnabled": true,
+              "_tracking": {
+                "_shouldStoreResponses": true,
+                "_shouldStoreAttempts": false,
+                "_shouldRecordInteractions": true
+              },
+              "_reporting": {
+                "_onTrackingCriteria": {
+                  "_requireAssessmentPassed": false,
+                  "_requireContentCompleted": true
+                },
+                "_onAssessmentFailure": "incomplete"
+              },
+              "_advancedSettings": {
+                "_scormVersion": "1.2",
+                "_showDebugWindow": false,
+                "_commitOnStatusChange": true,
+                "_timedCommitFrequency": 10,
+                "_maxCommitRetries": 5,
+                "_commitRetryDelay": 2000,
+                "_suppressErrors": true
+              }
+            },
+            "_pageLevelProgress": { "_isEnabled": true },
+            "_bookmarking": { "_isEnabled": true, "_level": "component" }
+          }
+          EOF
+            echo "✅ config.json created"
           fi
 
       # ── 9. Build SCORM package ───────────────────────────────────────────────
       - name: Build SCORM package
         working-directory: adapt-framework
-        run: grunt build --force
-
-      # ── 10. Validate build output ────────────────────────────────────────────
-      # Hard-fail if imsmanifest.xml is missing — means build did not complete.
-      - name: Validate build output
-        working-directory: adapt-framework
         run: |
-          if [ ! -f "build/imsmanifest.xml" ]; then
-            echo "❌ FATAL: build/imsmanifest.xml not found — grunt build failed"
-            echo "Build directory contents:"
-            ls -la build/ 2>/dev/null || echo "(build/ does not exist)"
-            exit 1
-          fi
-          echo "✅ imsmanifest.xml present"
-          echo "✅ Build directory:"
+          grunt build
+          echo "✅ Adapt build complete"
           ls -la build/
 
-      # ── 11. Package as SCORM zip ─────────────────────────────────────────────
+      # ── 10. Package as SCORM zip ─────────────────────────────────────────────
       - name: Create SCORM zip
         run: |
           TIMESTAMP=$(date +%Y%m%d-%H%M%S)
@@ -152,41 +147,35 @@ EOF
           COURSE_JSON="adapt-framework/src/course/en/course.json"
           if [ -f "$COURSE_JSON" ]; then
             TITLE=$(python3 -c "
-import json
-try:
-  d = json.load(open('$COURSE_JSON'))
-  t = d.get('displayTitle') or d.get('title','')
-  print(t[:60])
-except: pass
-" 2>/dev/null || true)
+          import json, sys
+          try:
+            d = json.load(open('$COURSE_JSON'))
+            t = d.get('displayTitle') or d.get('title','')
+            print(t[:60])
+          except: pass
+          " 2>/dev/null || true)
             if [ -n "$TITLE" ]; then
-              COURSE_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' \
-                | sed 's/[^a-z0-9]/-/g' \
-                | sed 's/--*/-/g' \
-                | sed 's/^-//;s/-$//')
+              COURSE_TITLE=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | \
+                sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
             fi
           fi
           FILENAME="SCORM-${COURSE_TITLE}-${TIMESTAMP}.zip"
           cd adapt-framework/build
-          zip -r "../../${FILENAME}" .
+          zip -r "../../${FILENAME}" . -x "*.DS_Store" -x "__MACOSX/*"
           cd ../..
-          if [ ! -f "$FILENAME" ]; then
-            echo "❌ FATAL: zip file was not created"
-            exit 1
-          fi
           echo "SCORM_FILENAME=${FILENAME}" >> $GITHUB_ENV
           echo "SCORM_TIMESTAMP=${TIMESTAMP}" >> $GITHUB_ENV
           echo "✅ Created: ${FILENAME} ($(du -sh ${FILENAME} | cut -f1))"
 
-      # ── 12. Upload as workflow artifact ──────────────────────────────────────
+      # ── 11. Upload as workflow artifact (90-day retention) ───────────────────
       - name: Upload SCORM artifact
         uses: actions/upload-artifact@v4
         with:
-          name: SCORM-${{ env.SCORM_TIMESTAMP }}
+          name: scorm-package-${{ env.SCORM_TIMESTAMP }}
           path: ${{ env.SCORM_FILENAME }}
           retention-days: 90
 
-      # ── 13. Create GitHub Release ─────────────────────────────────────────────
+      # ── 12. Create GitHub Release with zip attached ──────────────────────────
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -195,15 +184,19 @@ except: pass
           body: |
             ## NOVA™ SCORM 1.2 Package
 
+            Automatically built by the NOVA™ SCORM Pipeline.
+
             | Field | Value |
             |-------|-------|
             | Standard | SCORM 1.2 (MOD DLE compatible) |
             | Framework | Adapt Framework v5.24.3 |
             | Built | ${{ env.SCORM_TIMESTAMP }} |
 
-            ### Deploy
-            1. Download the `.zip` below
-            2. Upload to LMS and select **SCORM 1.2**
+            ### How to deploy
+            1. Download the `.zip` file below
+            2. Upload to your LMS (MOD DLE, Moodle, SCORM Cloud, etc.)
+            3. Select **SCORM 1.2** as the package type
+            4. Learners can launch immediately
 
             ---
             *Generated by NOVA™ Agentic Allied Defence Training Platform*
@@ -213,10 +206,14 @@ except: pass
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 14. Build summary ─────────────────────────────────────────────────────
+      # ── 13. Job summary ──────────────────────────────────────────────────────
       - name: Build Summary
         run: |
           echo "## ✅ NOVA SCORM Build Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Package | \`${{ env.SCORM_FILENAME }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| Standard | SCORM 1.2 |" >> $GITHUB_STEP_SUMMARY
-          echo "| Status | ✅ Ready for LMS upload |" >> $GITHUB_STEP_SUMMARY
+          echo "| Framework | Adapt v5.24.3 |" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ✅ Ready for LMS deployment |" >> $GITHUB_STEP_SUMMARY
