@@ -5,9 +5,2385 @@
     "_type": "page",
     "_classes": "",
     "_isOptional": false,
-    "title": "TO1: Defence Direction and Guidance for Training and Education b DTSM 2024 Edition DSAT Training Support Manual c RolePS 008/21 V1 Role Performance Statement – TA Operator Class 1 d FTS 2303C V1 Formal Training Statement – EW Systems Operator Class 1 Definitions and Abbreviations Abbreviation Definition AATAM All Arms Tactical Aide Memoire AESP Army Equipment Support Publication BMD Basic Military Document CES Complete Equipment Schedule CoC Chain of Command CSCM Counter Surveillance Control Measures",
-    "displayTitle": "Defence Direction and Guidance for Training and Education b DTSM 2024 Edition DSAT Training Support Manual c RolePS 008/21 V1 Role Performance Statement – TA Operator Class 1 d FTS 2303C V1 Formal Training Statement – EW Systems Operator Class 1 Definitions and Abbreviations Abbreviation Definition AATAM All Arms Tactical Aide Memoire AESP Army Equipment Support Publication BMD Basic Military Document CES Complete Equipment Schedule CoC Chain of Command CSCM Counter Surveillance Control Measures",
-    "body": "<p><strong>Training Objective 1:</strong> Defence Direction and Guidance for Training and Education b DTSM 2024 Edition DSAT Training Support Manual c RolePS 008/21 V1 Role Performance Statement – TA Operator Class 1 d FTS 2303C V1 Formal Training Statement – EW Systems Operator Class 1 Definitions and Abbreviations Abbreviation Definition AATAM All Arms Tactical Aide Memoire AESP Army Equipment Support Publication BMD Basic Military Document CES Complete Equipment Schedule CoC Chain of Command CSCM Counter Surveillance Control Measures</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "title": "TO1: Provide Support To The Chain Of Command (CoC)",
+    "displayTitle": "Provide Support To The Chain Of Command (CoC)",
+    "body": "<p><strong>Training Objective 1:</strong> Provide Support To The Chain Of Command (CoC)</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Attitude | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to2",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO2: Receive tasking from the Chain of Command (CoC).",
+    "displayTitle": "Receive tasking from the Chain of Command (CoC).",
+    "body": "<p><strong>Training Objective 2:</strong> Receive tasking from the Chain of Command (CoC).</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to3",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO3: Interpret tasking.",
+    "displayTitle": "Interpret tasking.",
+    "body": "<p><strong>Training Objective 3:</strong> Interpret tasking.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to4",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO4: Confirm tasking.",
+    "displayTitle": "Confirm tasking.",
+    "body": "<p><strong>Training Objective 4:</strong> Confirm tasking.</p><p><strong>Conditions:</strong> Tasking order.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to5",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO5: Advise CoC on personnel status.",
+    "displayTitle": "Advise CoC on personnel status.",
+    "body": "<p><strong>Training Objective 5:</strong> Advise CoC on personnel status.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 2 — Formal Workplace Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to6",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO6: Advise CoC on equipment status.",
+    "displayTitle": "Advise CoC on equipment status.",
+    "body": "<p><strong>Training Objective 6:</strong> Advise CoC on equipment status.</p><p><strong>Conditions:</strong> Unit SOIs/SOPs.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to7",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO7: Provide updates on the preparation activities to Comd elements.",
+    "displayTitle": "Provide updates on the preparation activities to Comd elements.",
+    "body": "<p><strong>Training Objective 7:</strong> Provide updates on the preparation activities to Comd elements.</p><p><strong>Conditions:</strong> AESPs.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to8",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO8: Attend operational briefs.",
+    "displayTitle": "Attend operational briefs.",
+    "body": "<p><strong>Training Objective 8:</strong> Attend operational briefs.</p><p><strong>Conditions:</strong> Local equipment schedules.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to9",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO9: Communicate brief to subordinates.",
+    "displayTitle": "Communicate brief to subordinates.",
+    "body": "<p><strong>Training Objective 9:</strong> Communicate brief to subordinates.</p><p><strong>Conditions:</strong> Installation Maintenance Instructions (IMI).\nUnit equipment care policy.\nAll relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-7.  A, B, C, E, H, J, K.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to10",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO10: Control Detachment Preparation",
+    "displayTitle": "Control Detachment Preparation",
+    "body": "<p><strong>Training Objective 10:</strong> Control Detachment Preparation</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to11",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO11: Identify the correct equipment for the given task.",
+    "displayTitle": "Identify the correct equipment for the given task.",
+    "body": "<p><strong>Training Objective 11:</strong> Identify the correct equipment for the given task.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to12",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO12: Delegate tasks to troops.",
+    "displayTitle": "Delegate tasks to troops.",
+    "body": "<p><strong>Training Objective 12:</strong> Delegate tasks to troops.</p><p><strong>Conditions:</strong> Mission specific equipment.</p><p><strong>Standards:</strong> 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to13",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO13: Direct and oversee the preparation of the capability.",
+    "displayTitle": "Direct and oversee the preparation of the capability.",
+    "body": "<p><strong>Training Objective 13:</strong> Direct and oversee the preparation of the capability.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to14",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO14: 4. Confirm capability readiness with CoC.",
+    "displayTitle": "4. Confirm capability readiness with CoC.",
+    "body": "<p><strong>Training Objective 14:</strong> 4. Confirm capability readiness with CoC.</p><p><strong>Conditions:</strong> Information from:\nTasking order.\nUnit SOIs/SOPs.\nAESPs.\nLocal equipment schedules.\nIMI.\nUnit equipment care policy.\nAll relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-4. A, B, C, D, F, H, I, AK, AL, AP, AQ.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to15",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO15: Assist in the Deployment of Capability",
+    "displayTitle": "Assist in the Deployment of Capability",
+    "body": "<p><strong>Training Objective 15:</strong> Assist in the Deployment of Capability</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 4 — Supervised Practice</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to16",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO16: Investigate subordinates trade training requirements.",
+    "displayTitle": "Investigate subordinates trade training requirements.",
+    "body": "<p><strong>Training Objective 16:</strong> Investigate subordinates trade training requirements.</p><p><strong>Conditions:</strong> Troops requiring training.</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Knowledge | Bloom Level: 4 — Analyse | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to17",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO17: Investigate subordinates special to role training requirements.",
+    "displayTitle": "Investigate subordinates special to role training requirements.",
+    "body": "<p><strong>Training Objective 17:</strong> Investigate subordinates special to role training requirements.</p><p><strong>Conditions:</strong> Military training wing.</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Knowledge | Bloom Level: 4 — Analyse | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to18",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO18: Investigate subordinates tactical and military training requirements.",
+    "displayTitle": "Investigate subordinates tactical and military training requirements.",
+    "body": "<p><strong>Training Objective 18:</strong> Investigate subordinates tactical and military training requirements.</p><p><strong>Conditions:</strong> Trade training wing.</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Knowledge | Bloom Level: 4 — Analyse | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to19",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO19: Manage subordinates administrative requirements.",
+    "displayTitle": "Manage subordinates administrative requirements.",
+    "body": "<p><strong>Training Objective 19:</strong> Manage subordinates administrative requirements.</p><p><strong>Conditions:</strong> Distributed training locations.</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to20",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO20: Ensure soldiers’ personal administration is completed.",
+    "displayTitle": "Ensure soldiers’ personal administration is completed.",
+    "body": "<p><strong>Training Objective 20:</strong> Ensure soldiers’ personal administration is completed.</p><p><strong>Conditions:</strong> Appropriate training areas.</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to21",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO21: Manage soldiers’ operational and/or deployment administration.",
+    "displayTitle": "Manage soldiers’ operational and/or deployment administration.",
+    "body": "<p><strong>Training Objective 21:</strong> Manage soldiers’ operational and/or deployment administration.</p><p><strong>Conditions:</strong> Competency Workbooks.\nInformation from:\nSOinC(A) Policy Directives.\nCompetency Workbooks.\nLand Mounting Instructions.\nOperational/tasking Orders.\nDeployment Orders.\nAll relevant support publication...</p><p><strong>Standards:</strong> 1-4. A, AU, AV.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to22",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO22: Receive the issue of and ensure the correct implementation of theatre specific equipments.",
+    "displayTitle": "Receive the issue of and ensure the correct implementation of theatre specific equipments.",
+    "body": "<p><strong>Training Objective 22:</strong> Receive the issue of and ensure the correct implementation of theatre specific equipments.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-3. A, AW, AX, AY, AZ.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to23",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO23: Manage the theatre specific training requirements for all detachment members.",
+    "displayTitle": "Manage the theatre specific training requirements for all detachment members.",
+    "body": "<p><strong>Training Objective 23:</strong> Manage the theatre specific training requirements for all detachment members.</p><p><strong>Conditions:</strong> Theatre reception staff.</p><p><strong>Standards:</strong> 1-3. A, AW, AX, AY, AZ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to24",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO24: Ensure all detachment members attend the required briefings e.g. situational awareness.",
+    "displayTitle": "Ensure all detachment members attend the required briefings e.g. situational awareness.",
+    "body": "<p><strong>Training Objective 24:</strong> Ensure all detachment members attend the required briefings e.g. situational awareness.</p><p><strong>Conditions:</strong> An RSOI programme.\nAn installation.\nDetachment personnel.\nTheatre specific equipment.\nOperational briefings.\nLand Mounting Instruction.\nInformation from:\nOperational Order.\nTheatre SOPs.\nUnit SOIs/...</p><p><strong>Standards:</strong> 1-3. A, AW, AX, AY, AZ.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to25",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO25: Move Capability to Forward Operating Base (FOB)",
+    "displayTitle": "Move Capability to Forward Operating Base (FOB)",
+    "body": "<p><strong>Training Objective 25:</strong> Move Capability to Forward Operating Base (FOB)</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 2 — Formal Workplace Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to26",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO26: Confirm route to FOB before departure and as required.",
+    "displayTitle": "Confirm route to FOB before departure and as required.",
+    "body": "<p><strong>Training Objective 26:</strong> Confirm route to FOB before departure and as required.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to27",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO27: Ensure technical protection measures are implemented.",
+    "displayTitle": "Ensure technical protection measures are implemented.",
+    "body": "<p><strong>Training Objective 27:</strong> Ensure technical protection measures are implemented.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to28",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO28: Ensure tactical requirements (actions on) are known and practised.",
+    "displayTitle": "Ensure tactical requirements (actions on) are known and practised.",
+    "body": "<p><strong>Training Objective 28:</strong> Ensure tactical requirements (actions on) are known and practised.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to29",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO29: Continue liaison/comms with MOVCON and CoC.",
+    "displayTitle": "Continue liaison/comms with MOVCON and CoC.",
+    "body": "<p><strong>Training Objective 29:</strong> Continue liaison/comms with MOVCON and CoC.</p><p><strong>Conditions:</strong> Theatre specific equipments.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to30",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO30: Upon arrival at FOB implement R2 procedures.",
+    "displayTitle": "Upon arrival at FOB implement R2 procedures.",
+    "body": "<p><strong>Training Objective 30:</strong> Upon arrival at FOB implement R2 procedures.</p><p><strong>Conditions:</strong> A FOB.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to31",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO31: Identify and liaise with local Comd.",
+    "displayTitle": "Identify and liaise with local Comd.",
+    "body": "<p><strong>Training Objective 31:</strong> Identify and liaise with local Comd.</p><p><strong>Conditions:</strong> Movements Staff.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to32",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO32: Receive a brief on the tactical, security, actions-on considerations.",
+    "displayTitle": "Receive a brief on the tactical, security, actions-on considerations.",
+    "body": "<p><strong>Training Objective 32:</strong> Receive a brief on the tactical, security, actions-on considerations.</p><p><strong>Conditions:</strong> Local/site Comd.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 2 — Formal Workplace Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to33",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO33: Brief-back subordinates on the Comd’s brief.",
+    "displayTitle": "Brief-back subordinates on the Comd’s brief.",
+    "body": "<p><strong>Training Objective 33:</strong> Brief-back subordinates on the Comd’s brief.</p><p><strong>Conditions:</strong> Information from:\nMovement Order.\nOperational Order.\nTheatre SOPs.\nUnit SOIs/SOPs.\nAESPs.\nLocal equipment schedules.\nAll relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-6. A, E, J, L, O, P, Q, Z, AC, AI, AK, AL, AN, AQ, AS, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to34",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO34: Site and Establish Capability",
+    "displayTitle": "Site and Establish Capability",
+    "body": "<p><strong>Training Objective 34:</strong> Site and Establish Capability</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to35",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO35: Conduct an appreciation of the siting requirements to include technical and tactical considerations.",
+    "displayTitle": "Conduct an appreciation of the siting requirements to include technical and tactical considerations.",
+    "body": "<p><strong>Training Objective 35:</strong> Conduct an appreciation of the siting requirements to include technical and tactical considerations.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to36",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO36: Brief detachment members on the siting requirements.",
+    "displayTitle": "Brief detachment members on the siting requirements.",
+    "body": "<p><strong>Training Objective 36:</strong> Brief detachment members on the siting requirements.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to37",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO37: Supervise the set-up of the capability.",
+    "displayTitle": "Supervise the set-up of the capability.",
+    "body": "<p><strong>Training Objective 37:</strong> Supervise the set-up of the capability.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to38",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO38: Inspect the set-up of the capability.",
+    "displayTitle": "Inspect the set-up of the capability.",
+    "body": "<p><strong>Training Objective 38:</strong> Inspect the set-up of the capability.</p><p><strong>Conditions:</strong> Suitable site location.</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 4 — Analyse | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to39",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO39: Establish detachment as per mission and task.",
+    "displayTitle": "Establish detachment as per mission and task.",
+    "body": "<p><strong>Training Objective 39:</strong> Establish detachment as per mission and task.</p><p><strong>Conditions:</strong> Changing technical/tactical situation.</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to40",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO40: React to tactical and/or technical changes in the situation.",
+    "displayTitle": "React to tactical and/or technical changes in the situation.",
+    "body": "<p><strong>Training Objective 40:</strong> React to tactical and/or technical changes in the situation.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to41",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO41: Produce R2 as per SOPs.",
+    "displayTitle": "Produce R2 as per SOPs.",
+    "body": "<p><strong>Training Objective 41:</strong> Produce R2 as per SOPs.</p><p><strong>Conditions:</strong> Unit SOPs.\nUnit SOIs/SOPs.\nAESPs.\nLocal equipment schedules.\nInstallation maintenance instruction (IMI).\nAll relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-7. A, E, P, Q, T, W, Z, AF, AG, AJ, AN, AW, AX, BD.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to42",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO42: Liaison With Local/Site Comd",
+    "displayTitle": "Liaison With Local/Site Comd",
+    "body": "<p><strong>Training Objective 42:</strong> Liaison With Local/Site Comd</p><p><strong>Standards:</strong> 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to43",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO43: Provide a brief to the local/site Comd on your task.",
+    "displayTitle": "Provide a brief to the local/site Comd on your task.",
+    "body": "<p><strong>Training Objective 43:</strong> Provide a brief to the local/site Comd on your task.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to44",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO44: Advise the local/site Comd on the ‘need to know’.",
+    "displayTitle": "Advise the local/site Comd on the ‘need to know’.",
+    "body": "<p><strong>Training Objective 44:</strong> Advise the local/site Comd on the ‘need to know’.</p><p><strong>Conditions:</strong> A local/site Comd.</p><p><strong>Standards:</strong> 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.</p><p><em>Domain: Knowledge | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to45",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO45: Advise the local/site Comd on the conduct of co-located troops i.e. security and access restrictions.",
+    "displayTitle": "Advise the local/site Comd on the conduct of co-located troops i.e. security and access restrictions.",
+    "body": "<p><strong>Training Objective 45:</strong> Advise the local/site Comd on the conduct of co-located troops i.e. security and access restrictions.</p><p><strong>Conditions:</strong> Co-located troops.</p><p><strong>Standards:</strong> 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to46",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO46: Ensure own troops adhere to the Comd requirements i.e. site routine, security, actions-on etc.",
+    "displayTitle": "Ensure own troops adhere to the Comd requirements i.e. site routine, security, actions-on etc.",
+    "body": "<p><strong>Training Objective 46:</strong> Ensure own troops adhere to the Comd requirements i.e. site routine, security, actions-on etc.</p><p><strong>Conditions:</strong> A secure or restricted area.\nInformation from:\nUnit SOIs/SOPs.\nTheatre SOPs.\nOperational Order.\nJSP 440.</p><p><strong>Standards:</strong> 1-4. A, I, T, AE, AJ, AK, AL, AN, AQ.</p><p><em>Domain: Attitude | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to47",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO47: Establish an Effective Detachment Routine",
+    "displayTitle": "Establish an Effective Detachment Routine",
+    "body": "<p><strong>Training Objective 47:</strong> Establish an Effective Detachment Routine</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to48",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO48: Manage the detachment.",
+    "displayTitle": "Manage the detachment.",
+    "body": "<p><strong>Training Objective 48:</strong> Manage the detachment.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to49",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO49: Confirm task duration.",
+    "displayTitle": "Confirm task duration.",
+    "body": "<p><strong>Training Objective 49:</strong> Confirm task duration.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to50",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO50: Implement reporting procedures to CoC (own and local/site Comd).",
+    "displayTitle": "Implement reporting procedures to CoC (own and local/site Comd).",
+    "body": "<p><strong>Training Objective 50:</strong> Implement reporting procedures to CoC (own and local/site Comd).</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to51",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO51: Apply R2 procedures to own CoC (as per SOPs).",
+    "displayTitle": "Apply R2 procedures to own CoC (as per SOPs).",
+    "body": "<p><strong>Training Objective 51:</strong> Apply R2 procedures to own CoC (as per SOPs).</p><p><strong>Conditions:</strong> Local/site Comd.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to52",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO52: Apply local R2 procedures.",
+    "displayTitle": "Apply local R2 procedures.",
+    "body": "<p><strong>Training Objective 52:</strong> Apply local R2 procedures.</p><p><strong>Conditions:</strong> Reporting CoC.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to53",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO53: Ensure continued maintenance of equipment.",
+    "displayTitle": "Ensure continued maintenance of equipment.",
+    "body": "<p><strong>Training Objective 53:</strong> Ensure continued maintenance of equipment.</p><p><strong>Conditions:</strong> Classified materiel.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to54",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO54: Implement a detachment ‘Communications Board’.",
+    "displayTitle": "Implement a detachment ‘Communications Board’.",
+    "body": "<p><strong>Training Objective 54:</strong> Implement a detachment ‘Communications Board’.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to55",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO55: Produce a site plan.",
+    "displayTitle": "Produce a site plan.",
+    "body": "<p><strong>Training Objective 55:</strong> Produce a site plan.</p><p><strong>Conditions:</strong> Unit SOIs/SOPs.</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to56",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO56: Account for classified documents, keys and cryptographic material.",
+    "displayTitle": "Account for classified documents, keys and cryptographic material.",
+    "body": "<p><strong>Training Objective 56:</strong> Account for classified documents, keys and cryptographic material.</p><p><strong>Conditions:</strong> Theatre SOPs.\nTheatre Standing Orders.\nLocal Standing Orders.\nLocal SOPs.\nAESPs.\nLocal equipment schedules.\nInstallation maintenance instruction (IMI).\nAll relevant support publications and user ha...</p><p><strong>Standards:</strong> 1. A, C, D, E, F, H, I, Q, T, X, Y, AA, AB, AF, AG, AJ, AK, AM, AN, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to57",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO57: Apply Handover/Takeover Procedures",
+    "displayTitle": "Apply Handover/Takeover Procedures",
+    "body": "<p><strong>Training Objective 57:</strong> Apply Handover/Takeover Procedures</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to58",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO58: Produce and deliver a technical brief to include any changes to the specified task.",
+    "displayTitle": "Produce and deliver a technical brief to include any changes to the specified task.",
+    "body": "<p><strong>Training Objective 58:</strong> Produce and deliver a technical brief to include any changes to the specified task.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to59",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO59: Ensure management of accountable items as per SOPs.",
+    "displayTitle": "Ensure management of accountable items as per SOPs.",
+    "body": "<p><strong>Training Objective 59:</strong> Ensure management of accountable items as per SOPs.</p><p><strong>Conditions:</strong> Operation/tasking Order.</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to60",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO60: Produce an updated events/reports log.",
+    "displayTitle": "Produce an updated events/reports log.",
+    "body": "<p><strong>Training Objective 60:</strong> Produce an updated events/reports log.</p><p><strong>Conditions:</strong> Accountable materiel.</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to61",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO61: Produce a SITREP informing of any tactical/technical changes and disseminate information to detachment members.",
+    "displayTitle": "Produce a SITREP informing of any tactical/technical changes and disseminate information to detachment members.",
+    "body": "<p><strong>Training Objective 61:</strong> Produce a SITREP informing of any tactical/technical changes and disseminate information to detachment members.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to62",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO62: Produce a handover/takeover report as required for R2 purposes.",
+    "displayTitle": "Produce a handover/takeover report as required for R2 purposes.",
+    "body": "<p><strong>Training Objective 62:</strong> Produce a handover/takeover report as required for R2 purposes.</p><p><strong>Conditions:</strong> Unit SOIs/SOPs.\nTheatre/local SOPs.\nTheatre Standing Orders.\nAESPs.\nLocal equipment schedules.\nAll relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-5. A, E, I, Q, T, X, AB, AE, AG, AJ, AK, AM, AN, AP, AQ, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to63",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO63: Monitor and Manage the Services Provided",
+    "displayTitle": "Monitor and Manage the Services Provided",
+    "body": "<p><strong>Training Objective 63:</strong> Monitor and Manage the Services Provided</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to64",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO64: Ensure the effective exploitation of the specified task.",
+    "displayTitle": "Ensure the effective exploitation of the specified task.",
+    "body": "<p><strong>Training Objective 64:</strong> Ensure the effective exploitation of the specified task.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to65",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO65: Monitor tasks.",
+    "displayTitle": "Monitor tasks.",
+    "body": "<p><strong>Training Objective 65:</strong> Monitor tasks.</p><p><strong>Conditions:</strong> Operation/Tasking Order.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 4 — Analyse | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to66",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO66: Identify mission priorities.",
+    "displayTitle": "Identify mission priorities.",
+    "body": "<p><strong>Training Objective 66:</strong> Identify mission priorities.</p><p><strong>Conditions:</strong> Reporting CoC.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 2 — Formal Workplace Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to67",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO67: Provide technical support to the detachment and deployed force elements.",
+    "displayTitle": "Provide technical support to the detachment and deployed force elements.",
+    "body": "<p><strong>Training Objective 67:</strong> Provide technical support to the detachment and deployed force elements.</p><p><strong>Conditions:</strong> Changing tactical/technical situation.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to68",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO68: Produce reports on the specified task.",
+    "displayTitle": "Produce reports on the specified task.",
+    "body": "<p><strong>Training Objective 68:</strong> Produce reports on the specified task.</p><p><strong>Conditions:</strong> Local interference.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to69",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO69: React to tactical changes in the situation.",
+    "displayTitle": "React to tactical changes in the situation.",
+    "body": "<p><strong>Training Objective 69:</strong> React to tactical changes in the situation.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to70",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO70: React to technical changes in the situation.",
+    "displayTitle": "React to technical changes in the situation.",
+    "body": "<p><strong>Training Objective 70:</strong> React to technical changes in the situation.</p><p><strong>Conditions:</strong> Unit SOIs/SOPs.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to71",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO71: Maintain enduring R2 requirement.",
+    "displayTitle": "Maintain enduring R2 requirement.",
+    "body": "<p><strong>Training Objective 71:</strong> Maintain enduring R2 requirement.</p><p><strong>Conditions:</strong> Theatre SOPs.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to72",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO72: Advise the local/site Comd to changes in the tactical situation.",
+    "displayTitle": "Advise the local/site Comd to changes in the tactical situation.",
+    "body": "<p><strong>Training Objective 72:</strong> Advise the local/site Comd to changes in the tactical situation.</p><p><strong>Conditions:</strong> AESPs.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to73",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO73: Communicate higher command requirements to local/site Comd and subordinates.",
+    "displayTitle": "Communicate higher command requirements to local/site Comd and subordinates.",
+    "body": "<p><strong>Training Objective 73:</strong> Communicate higher command requirements to local/site Comd and subordinates.</p><p><strong>Conditions:</strong> Local equipment schedules.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to74",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO74: Communicate advice to supporting deployed assets and hierarchy.",
+    "displayTitle": "Communicate advice to supporting deployed assets and hierarchy.",
+    "body": "<p><strong>Training Objective 74:</strong> Communicate advice to supporting deployed assets and hierarchy.</p><p><strong>Conditions:</strong> Installation maintenance instruction (IMI).</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to75",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO75: Identify fratricide and/or interference issues.",
+    "displayTitle": "Identify fratricide and/or interference issues.",
+    "body": "<p><strong>Training Objective 75:</strong> Identify fratricide and/or interference issues.</p><p><strong>Conditions:</strong> All relevant support publications and user handbooks.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to76",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO76: React and report on fratricide and/or interference issues.",
+    "displayTitle": "React and report on fratricide and/or interference issues.",
+    "body": "<p><strong>Training Objective 76:</strong> React and report on fratricide and/or interference issues.</p><p><strong>Standards:</strong> 1-8. A, E, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to77",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO77: Identify Capability Gaps",
+    "displayTitle": "Identify Capability Gaps",
+    "body": "<p><strong>Training Objective 77:</strong> Identify Capability Gaps</p><p><strong>Standards:</strong> 1-2. A, B, D, F, H, Y, AA, AX.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to78",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO78: Inform CoC of potential capability gaps.",
+    "displayTitle": "Inform CoC of potential capability gaps.",
+    "body": "<p><strong>Training Objective 78:</strong> Inform CoC of potential capability gaps.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-2. A, B, D, F, H, Y, AA, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to79",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO79: Receive and implement the arrival of new equipment from the UOR process.",
+    "displayTitle": "Receive and implement the arrival of new equipment from the UOR process.",
+    "body": "<p><strong>Training Objective 79:</strong> Receive and implement the arrival of new equipment from the UOR process.</p><p><strong>Conditions:</strong> A perceived capability gap.\nUOR equipment.\nInformation from:\nUOR Equipment AESPs.\nUOR Equipment user manuals.\nUOR CES.</p><p><strong>Standards:</strong> 1-2. A, B, D, F, H, Y, AA, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to80",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO80: Review the Operational Situation",
+    "displayTitle": "Review the Operational Situation",
+    "body": "<p><strong>Training Objective 80:</strong> Review the Operational Situation</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to81",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO81: Plan and submit detachment R & R requirements.",
+    "displayTitle": "Plan and submit detachment R & R requirements.",
+    "body": "<p><strong>Training Objective 81:</strong> Plan and submit detachment R & R requirements.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to82",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO82: Identify and act upon manpower uplift requirements.",
+    "displayTitle": "Identify and act upon manpower uplift requirements.",
+    "body": "<p><strong>Training Objective 82:</strong> Identify and act upon manpower uplift requirements.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to83",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO83: Identify and act upon the ability to reduce manpower.",
+    "displayTitle": "Identify and act upon the ability to reduce manpower.",
+    "body": "<p><strong>Training Objective 83:</strong> Identify and act upon the ability to reduce manpower.</p><p><strong>Conditions:</strong> Operation/tasking Order.</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to84",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO84: Ensure replacement personnel are appropriately trained.",
+    "displayTitle": "Ensure replacement personnel are appropriately trained.",
+    "body": "<p><strong>Training Objective 84:</strong> Ensure replacement personnel are appropriately trained.</p><p><strong>Conditions:</strong> Theatre Standing Orders.</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to85",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO85: React to changes that may affect the operational situation i.e. welfare issues.",
+    "displayTitle": "React to changes that may affect the operational situation i.e. welfare issues.",
+    "body": "<p><strong>Training Objective 85:</strong> React to changes that may affect the operational situation i.e. welfare issues.</p><p><strong>Conditions:</strong> Replacement detachment personnel.\nInformation from:\nTheatre SOIs/SOPs.\nUnit SOIs/SOPs.\nTasking order.</p><p><strong>Standards:</strong> 1-5. A, K, N, X, AB, AF, AW, AX, AY.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to86",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO86: Maintain Detachment Personnel",
+    "displayTitle": "Maintain Detachment Personnel",
+    "body": "<p><strong>Training Objective 86:</strong> Maintain Detachment Personnel</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to87",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO87: Ensure the well being of detachment members.",
+    "displayTitle": "Ensure the well being of detachment members.",
+    "body": "<p><strong>Training Objective 87:</strong> Ensure the well being of detachment members.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to88",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO88: Provide appraisals of personnel.",
+    "displayTitle": "Provide appraisals of personnel.",
+    "body": "<p><strong>Training Objective 88:</strong> Provide appraisals of personnel.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to89",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO89: Identify and enhance the personnel development of detachment members.",
+    "displayTitle": "Identify and enhance the personnel development of detachment members.",
+    "body": "<p><strong>Training Objective 89:</strong> Identify and enhance the personnel development of detachment members.</p><p><strong>Conditions:</strong> R&R rota.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to90",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO90: Advise and assist with the career development of subordinates.",
+    "displayTitle": "Advise and assist with the career development of subordinates.",
+    "body": "<p><strong>Training Objective 90:</strong> Advise and assist with the career development of subordinates.</p><p><strong>Conditions:</strong> Adventure training activities.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to91",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO91: Provide subordinates with Trade advice.",
+    "displayTitle": "Provide subordinates with Trade advice.",
+    "body": "<p><strong>Training Objective 91:</strong> Provide subordinates with Trade advice.</p><p><strong>Conditions:</strong> Locally employed civilians.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to92",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO92: Identify and react to stress management situations.",
+    "displayTitle": "Identify and react to stress management situations.",
+    "body": "<p><strong>Training Objective 92:</strong> Identify and react to stress management situations.</p><p><strong>Conditions:</strong> Information from:</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to93",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO93: Relieve soldiers from their duties when appropriate to do so.",
+    "displayTitle": "Relieve soldiers from their duties when appropriate to do so.",
+    "body": "<p><strong>Training Objective 93:</strong> Relieve soldiers from their duties when appropriate to do so.</p><p><strong>Conditions:</strong> Unit SOPs.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to94",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO94: To allow for the completion of administrative functions.",
+    "displayTitle": "To allow for the completion of administrative functions.",
+    "body": "<p><strong>Training Objective 94:</strong> To allow for the completion of administrative functions.</p><p><strong>Conditions:</strong> Theatre SOPs.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to95",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO95: To allow for leave (inc R&R).",
+    "displayTitle": "To allow for leave (inc R&R).",
+    "body": "<p><strong>Training Objective 95:</strong> To allow for leave (inc R&R).</p><p><strong>Conditions:</strong> R SIGNALS Wing direction through the CoC.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to96",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO96: To allow the conduct of adventure training as the situation dictates.",
+    "displayTitle": "To allow the conduct of adventure training as the situation dictates.",
+    "body": "<p><strong>Training Objective 96:</strong> To allow the conduct of adventure training as the situation dictates.</p><p><strong>Conditions:</strong> HQ SOinC(A) Policy Directives.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to97",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO97: To allow for planned career courses.",
+    "displayTitle": "To allow for planned career courses.",
+    "body": "<p><strong>Training Objective 97:</strong> To allow for planned career courses.</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to98",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO98: Manage Locally Employed Civilians (LECs).",
+    "displayTitle": "Manage Locally Employed Civilians (LECs).",
+    "body": "<p><strong>Training Objective 98:</strong> Manage Locally Employed Civilians (LECs).</p><p><strong>Standards:</strong> 1-8. A, X, AF, AU, AV, BB.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to99",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO99: Manage Accountable Materiel (Sustain)",
+    "displayTitle": "Manage Accountable Materiel (Sustain)",
+    "body": "<p><strong>Training Objective 99:</strong> Manage Accountable Materiel (Sustain)</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to100",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO100: Ensure the correct accounting of weapons.",
+    "displayTitle": "Ensure the correct accounting of weapons.",
+    "body": "<p><strong>Training Objective 100:</strong> Ensure the correct accounting of weapons.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to101",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO101: Ensure the correct accounting of ammunition.",
+    "displayTitle": "Ensure the correct accounting of ammunition.",
+    "body": "<p><strong>Training Objective 101:</strong> Ensure the correct accounting of ammunition.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to102",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO102: Ensure the correct accounting of cryptographic material at detachment level.",
+    "displayTitle": "Ensure the correct accounting of cryptographic material at detachment level.",
+    "body": "<p><strong>Training Objective 102:</strong> Ensure the correct accounting of cryptographic material at detachment level.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to103",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO103: Ensure the correct accounting of Protectively Marked Material at detachment level.",
+    "displayTitle": "Ensure the correct accounting of Protectively Marked Material at detachment level.",
+    "body": "<p><strong>Training Objective 103:</strong> Ensure the correct accounting of Protectively Marked Material at detachment level.</p><p><strong>Conditions:</strong> Personal and vehicle mounted weapon systems.</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 5 — Evaluate | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to104",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO104: Ensure the correct accounting of specialist stores items.",
+    "displayTitle": "Ensure the correct accounting of specialist stores items.",
+    "body": "<p><strong>Training Objective 104:</strong> Ensure the correct accounting of specialist stores items.</p><p><strong>Conditions:</strong> Ammunition.\nAccountable Materiel.\nInformation from:\nUnit SOIs/SOPs.\nTheatre SOIs/SOPs.\nTheatre Standing Orders.</p><p><strong>Standards:</strong> 1-5. A, I, T, X, AB, AF, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AW, AX.</p><p><em>Domain: Knowledge | Bloom Level: 5 — Evaluate | Cat 2 — Formal Workplace Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to105",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO105: Manage the Servicing of Assets",
+    "displayTitle": "Manage the Servicing of Assets",
+    "body": "<p><strong>Training Objective 105:</strong> Manage the Servicing of Assets</p><p><strong>Standards:</strong> 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to106",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO106: Identify the correct G4 chain.",
+    "displayTitle": "Identify the correct G4 chain.",
+    "body": "<p><strong>Training Objective 106:</strong> Identify the correct G4 chain.</p><p><strong>Conditions:</strong> Given:</p><p><strong>Standards:</strong> 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.</p><p><em>Domain: Knowledge | Bloom Level: 2 — Understand | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to107",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO107: Plan and manage the G4 requirements.",
+    "displayTitle": "Plan and manage the G4 requirements.",
+    "body": "<p><strong>Training Objective 107:</strong> Plan and manage the G4 requirements.</p><p><strong>Conditions:</strong> An installation.</p><p><strong>Standards:</strong> 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 1 — Formal Residential Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to108",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO108: Oversee the maintenance of vehicles.",
+    "displayTitle": "Oversee the maintenance of vehicles.",
+    "body": "<p><strong>Training Objective 108:</strong> Oversee the maintenance of vehicles.</p><p><strong>Conditions:</strong> Detachment personnel.</p><p><strong>Standards:</strong> 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 6 — Create | Cat 3 — Structured On-Job Training</em></p>",
+    "pageBody": "",
+    "linkText": "View",
+    "duration": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "page-to109",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_isOptional": false,
+    "title": "TO109: Oversee the maintenance of equipment.",
+    "displayTitle": "Oversee the maintenance of equipment.",
+    "body": "<p><strong>Training Objective 109:</strong> Oversee the maintenance of equipment.</p><p><strong>Conditions:</strong> Capability CES.\nG4 chain.\nMaintenance equipment.\nInformation from:\nUnit SOIs/SOPs.\nTheatre/local SOPs.\nInstallation log book.\nUnit Equipment Repair Policy.\nEquipment AESPs.\nIMIs.\nAll relevant suppo...</p><p><strong>Standards:</strong> 1-3. A, B, C, D, F, H, X, Y, AB, AW, AX.</p><p><em>Domain: Skill | Bloom Level: 3 — Apply | Cat 3 — Structured On-Job Training</em></p>",
     "pageBody": "",
     "linkText": "View",
     "duration": "",
