@@ -135,7 +135,7 @@ jobs:
       - name: Build SCORM package
         working-directory: adapt-framework
         run: |
-          grunt build
+          grunt build --force
           echo "✅ Adapt build complete"
           ls -la build/
 
