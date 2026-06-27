@@ -85,6 +85,20 @@ jobs:
           echo "── Files copied to framework ──"
           ls -la adapt-framework/src/course/en/
 
+      # ── 7b. Copy NOVA custom components into framework ───────────────────────
+      # Drops any plugin under src/components/ (e.g. adapt-nova-decisiondrill)
+      # into the framework so grunt build bundles it. No-op if none present.
+      - name: Copy NOVA custom components
+        run: |
+          if [ -d src/components ] && [ -n "$(ls -A src/components 2>/dev/null)" ]; then
+            mkdir -p adapt-framework/src/components
+            cp -rv src/components/* adapt-framework/src/components/
+            echo "✅ NOVA custom components copied"
+            ls -la adapt-framework/src/components/
+          else
+            echo "ℹ No custom components to copy — skipping"
+          fi
+
       # ── 8. Inject SCORM config (spoor) ───────────────────────────────────────
       # Only writes config.json if one was not pushed by NOVA.
       - name: Ensure SCORM config.json

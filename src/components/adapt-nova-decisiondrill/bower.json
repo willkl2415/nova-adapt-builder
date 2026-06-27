@@ -1,0 +1,19 @@
+{
+  "name": "adapt-nova-decisiondrill",
+  "version": "1.0.0",
+  "framework": ">=5.0.0 <6.0.0",
+  "homepage": "https://novaalliedtrainingllm.com",
+  "issues": "https://github.com/willkl2415/nova-adapt-builder/issues",
+  "component": "nova-decisiondrill",
+  "extra": {
+    "platform": "all"
+  },
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    "NOVA Ltd"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "properties": {
+    "_component": { "type": "string", "default": "nova-decisiondrill" },
+    "_classes": { "type": "string", "required": false, "title": "Classes", "inputType": "Text" },
+    "_layout": { "type": "string", "required": true, "enum": ["full", "left", "right"], "default": "full", "title": "Layout", "inputType": { "type": "Select", "options": ["full", "left", "right"] } },
+    "instruction": { "type": "string", "required": false, "default": "", "title": "Instruction", "inputType": "Text" },
+    "_pack": {
+      "type": "object",
+      "required": false,
+      "title": "Decision Drill content pack",
+      "help": "The authored content for this Decision Drill (title, meter, scenarios, ranks). Subject-agnostic: the engine renders whatever pack is supplied.",
+      "properties": {
+        "title": { "type": "string", "title": "Activity title" },
+        "intro": { "type": "string", "title": "Intro / briefing" },
+        "meterName": { "type": "string", "title": "Stakes meter name", "default": "Integrity" },
+        "meterIcon": { "type": "string", "title": "Stakes meter icon", "default": "◆" },
+        "accent": { "type": "string", "title": "Accent colour", "default": "#4F46E5" },
+        "accent2": { "type": "string", "title": "Secondary accent", "default": "#8B5CF6" },
+        "damagePerMiss": { "type": "number", "title": "Meter damage per wrong answer", "default": 25 },
+        "timerSeconds": { "type": "number", "title": "Timer per scenario (0 = none)", "default": 10 },
+        "passMark": { "type": "number", "title": "Pass mark (% correct)", "default": 80 },
+        "scenarios": {
+          "type": "array",
+          "title": "Scenarios",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tag": { "type": "string", "title": "Tag" },
+              "from": { "type": "string", "title": "Source label" },
+              "text": { "type": "string", "title": "Situation" },
+              "media": { "type": "object", "title": "Media", "properties": { "type": { "type": "string" }, "value": { "type": "string" } } },
+              "options": {
+                "type": "array", "title": "Options",
+                "items": { "type": "object", "properties": {
+                  "icon": { "type": "string" }, "label": { "type": "string" }, "sub": { "type": "string" }, "correct": { "type": "boolean", "default": false }
+                } }
+              },
+              "feedback": { "type": "string", "title": "Feedback (why)" },
+              "objective": { "type": "string", "title": "EO / objective mapping" }
+            }
+          }
+        },
+        "ranks": {
+          "type": "array", "title": "Result ranks",
+          "items": { "type": "object", "properties": {
+            "minMeter": { "type": "number" }, "badge": { "type": "string" }, "name": { "type": "string" }, "colour": { "type": "string" }, "line": { "type": "string" }
+          } }
+        },
+        "breachedRank": {
+          "type": "object", "title": "Breached (failed) rank",
+          "properties": { "badge": { "type": "string" }, "name": { "type": "string" }, "colour": { "type": "string" }, "line": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

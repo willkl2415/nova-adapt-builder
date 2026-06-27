@@ -1,0 +1,21 @@
+<div class="component__inner nova-decisiondrill__inner">
+
+  {{#if displayTitle}}
+  <div class="component__header nova-decisiondrill__header">
+    <div class="component__title nova-decisiondrill__title">
+      <div class="component__title-inner" aria-hidden="true">
+        <div class="component__title-text">{{{compile displayTitle}}}</div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+
+  {{#if body}}
+  <div class="component__body nova-decisiondrill__body">
+    <div class="component__body-inner nova-decisiondrill__body-inner">{{{compile body}}}</div>
+  </div>
+  {{/if}}
+
+  <div class="component__widget nova-decisiondrill__widget js-nova-dd-widget" role="region" aria-label="Decision Drill interactive activity"></div>
+
+</div>
